@@ -1,3 +1,9 @@
+import {
+  addData,
+  data as dummyData,
+  updateDataById,
+  deleteData,
+} from "@/data/pengeluaran";
 import { useEffect, useState } from "react";
 import {
   IconCircleCheckFilled,
@@ -7,120 +13,118 @@ import {
   IconX,
   IconTrash,
 } from "@tabler/icons-react";
-
-import {
-  addData,
-  updateDataById,
-  deleteData,
-} from "@/data/pengeluaran";
-
 import {
   Home as HomeCard,
   Modal as ModalCard,
   ModalCreate as ModalCreateCard,
 } from "@/components/Card";
-
 import { Modal as FormModal } from "@/components/Modal";
 
-/* =======================
-   Formatter
-======================= */
+const TITLE = "Kalkulator Pengeluaran";
+
 const formatter = new Intl.NumberFormat("id-ID", {
   style: "currency",
   currency: "IDR",
 });
 
-/* =======================
-   COMPONENTS
-======================= */
-
-const SearchForm = ({ onChange }) => {
-  const [value, setValue] = useState("");
-
+export const ListItem = ({ data, callback, deleteDataCallback }) => {
   return (
-    <div className="border rounded-lg bg-gray-100 w-full">
-      <input
-        type="text"
-        placeholder="cari kategori pengeluaran"
-        className="w-full px-3 py-2 rounded-md text-sm border"
-        value={value}
-        onChange={(e) => {
-          setValue(e.target.value);
-          onChange(e.target.value);
-        }}
-      />
-    </div>
+    <ul className="text-sm space-y-2 h-[200px] overflow-y-auto scrollbar-thumb-gray-400 scrollbar-thin scrollbar-rounded-large scrollbar-track-gray-100">
+      {data.map((item) => (
+        <li
+          key={item._id}
+          className="flex justify-between space-x-2 bg-gray-50 p-2 rounded-lg pr-4 items-center"
+        >
+          <div
+            className={`flex flex-1 space-x-2  hover:cursor-pointer hover:text-blue-500 text-gray-600 duration-200 ease-in-out ${
+              item.is_checked ? "text-green-500 hover:text-blue-500" : ""
+            }`}
+            onClick={(e) => callback(item._id)}
+            disabled={item.is_checked}
+          >
+            {item.is_checked ? (
+              <IconCircleCheckFilled color="gray" size={24} stroke={2} />
+            ) : (
+              <IconCirclePlus size={24} stroke={2} color="gray" />
+            )}
+            <span>{item.kategori}</span>
+            <span>-</span>
+            <span>{item.nama}</span>
+          </div>
+          {item.is_created_by_user && (
+            <div
+              className="p-2 relative text-white shadow rounded-md bg-gradient-to-tr from-red-400 to-orange-200 hover:cursor-pointer hover:shadow-lg duration-300 ease-in-out"
+              onClick={() => {
+                deleteDataCallback(item._id);
+              }}
+            >
+              <IconTrash size={20} />
+            </div>
+          )}
+        </li>
+      ))}
+    </ul>
   );
 };
 
-const ListItem = ({ data, onClick, onDelete }) => (
-  <ul className="space-y-2 h-[200px] overflow-y-auto">
-    {data.map((item) => (
-      <li
-        key={item._id}
-        className="flex justify-between bg-gray-50 p-2 rounded-lg"
-      >
-        <div
-          className="flex space-x-2 items-center cursor-pointer"
-          onClick={() => onClick(item._id)}
-        >
-          {item.is_checked ? (
-            <IconCircleCheckFilled size={22} />
-          ) : (
-            <IconCirclePlus size={22} />
-          )}
-          <span>{item.kategori}</span>
-          <span>-</span>
-          <span>{item.nama}</span>
-        </div>
+export const ListSelectedItem = ({
+  data,
+  updateDataCallback,
+  deleteDataCallback,
+}) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [modalItem, setModalItem] = useState(null);
 
-        {item.is_created_by_user && (
-          <div
-            onClick={() => onDelete(item._id)}
-            className="cursor-pointer text-red-500"
-          >
-            <IconTrash size={20} />
-          </div>
-        )}
-      </li>
-    ))}
-  </ul>
-);
-
-const SelectedList = ({ data, onUpdate, onDelete }) => {
-  const [modal, setModal] = useState(null);
+  const onModalClickHandler = () => {
+    setIsOpen((prev) => !prev);
+  };
 
   return (
     <>
-      {modal && (
-        <FormModal callback={() => setModal(null)}>
+      {isOpen && (
+        <FormModal callback={onModalClickHandler}>
           <ModalCard
-            item={modal}
-            callback={() => setModal(null)}
-            updateDataCallback={onUpdate}
+            item={modalItem}
+            callback={onModalClickHandler}
+            updateDataCallback={updateDataCallback}
           />
         </FormModal>
       )}
-
-      <ul className="space-y-2">
+      <ul className="text-sm space-y-2">
         {data.map((item) => (
           <li
             key={item._id}
-            className="flex bg-gray-50 p-2 rounded-lg"
+            className={`flex space-x-2 bg-gray-50 p-2 rounded-lg shadow`}
           >
-            <IconX
-              className="cursor-pointer text-red-500"
-              onClick={() => onDelete(item._id)}
-            />
-            <IconPencil
-              className="cursor-pointer text-gray-500 ml-2"
-              onClick={() => setModal(item)}
-            />
+            <div className="flex w-full items-center space-x-4">
+              <div
+                className="p-2 relative text-white shadow rounded-md bg-gradient-to-tr from-red-400 to-orange-200 hover:cursor-pointer hover:shadow-lg duration-300 ease-in-out"
+                onClick={() => {
+                  deleteDataCallback(item._id);
+                }}
+              >
+                <IconX size={20} />
+              </div>
+              <div
+                className="p-2 relative text-white shadow rounded-md bg-gradient-to-tr from-gray-400 to-sky-200 hover:cursor-pointer hover:shadow-lg duration-300 ease-in-out"
+                onClick={() => {
+                  setIsOpen((prev) => !prev);
+                  setModalItem(item);
+                }}
+              >
+                <IconPencil size={20} />
+              </div>
 
-            <div className="ml-4 text-sm">
-              {item.amount} × {item.nama} (
-              {formatter.format(item.biaya)}) =
-              <b> {formatter.format(item.biaya * item.amount)}</b>
+              <div className="flex space-x-2 md:space-x-4 items-center overflow-x-auto text-xs md:text-regular p-2">
+                <span>{item.amount}</span>
+                <span>
+                  <IconX size={16} />
+                </span>
+                <div className="flex-1">{item.nama}</div>
+                <span> ({formatter.format(item.biaya)})</span>
+                <span>=</span>
+                <span>{formatter.format(item.biaya * item.amount)}</span>
+              </div>
             </div>
           </li>
         ))}
@@ -129,191 +133,322 @@ const SelectedList = ({ data, onUpdate, onDelete }) => {
   );
 };
 
-/* =======================
-   MAIN PAGE
-======================= */
+export const SearchForm = ({ callback }) => {
+  const [searchInput, setSearchInput] = useState("");
+  const onChangeHandler = (e) => {
+    setSearchInput(e.target.value);
+    callback(e.target.value);
+  };
+  return (
+    <div className="border-[0.5px] rounded-lg bg-gray-100 w-full md:w-11/12 lg:w-8/12 m-auto">
+      <input
+        type="text"
+        placeholder="cari kategori pengeluaran"
+        className="block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm placeholder-slate-400
+      focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+        value={searchInput}
+        onChange={onChangeHandler}
+      />
+    </div>
+  );
+};
 
+// kita butuh, is_filtered, is_checked
 export default function Home() {
-  const [data, setData] = useState([]);
-  const [filteredData, setFilteredData] = useState([]);
-  const [selectedData, setSelectedData] = useState([]);
   const [total, setTotal] = useState(0);
-  const [loading, setLoading] = useState(true);
-  const [openCreate, setOpenCreate] = useState(false);
-  const [copied, setCopied] = useState(false);
+  const [selectedData, setSelectedData] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
+  const [data, setData] = useState([]);
+  const [showTooltip, setShowTooltip] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  /* =======================
-     FETCH DATA
-  ======================= */
+  let pengeluaranComp;
+
   useEffect(() => {
-    fetch("/api/pengeluaran/all")
-      .then((res) => res.json())
-      .then((res) => {
-        const mapped = res.data.map((item) => ({
-          ...item,
-          is_checked: false,
-          is_filtered: false,
-          amount: 1,
-        }));
+    let tempData;
+    // kalau mendukung localStorage dan ada data,
+    // ambil data itu, tambahin atribut is_checked, is_filtered, amount
+    if (
+      typeof Storage !== "undefined" &&
+      localStorage.getItem("data") !== null
+    ) {
+      const lsData = JSON.parse(localStorage.getItem("data"));
+      // hapus data sebelumnya
+      if (lsData.filter((item) => item._id == 1).length > 0) {
+        localStorage.removeItem("data");
+      }
 
-        setData(mapped);
-        setFilteredData(mapped);
+      if (lsData.length > 0) {
+        tempData = lsData.map((item) => {
+          return { ...item, is_checked: false, is_filtered: false, amount: 1 };
+        });
+      }
+    }
+    fetch("/api/pengeluaran/all")
+      .then((data) => data.json())
+      .then((dataJson) => {
+        // remap data
+
+        const dataFetch = dataJson.data.map((item) => {
+          return { ...item, is_checked: false, is_filtered: false, amount: 1 };
+        });
+        // kalau ada tempData, taruh di atas list
+        if (tempData) {
+          setData(() => [...tempData, ...dataFetch]);
+          setFilteredData(() => [...tempData, ...dataFetch]);
+        } else {
+          setData(dataFetch);
+          setFilteredData(dataFetch);
+        }
       })
-      .catch(console.error)
-      .finally(() => setLoading(false));
+      .catch((e) => console.log(e));
   }, []);
 
-  /* =======================
-     HANDLERS
-  ======================= */
+  const getTotal = (total, item) => {
+    return total + item.biaya * item.amount;
+  };
 
-  const toggleItem = (id) => {
-    let updated;
-    const newData = data.map((item) => {
-      if (item._id === id) {
-        updated = { ...item, is_checked: !item.is_checked };
-        return updated;
+  const pengeluaranClickHandler = (id) => {
+    let updatedItem;
+    let updatedData = data.map((item) => {
+      if (item._id == id) {
+        updatedItem = { ...item, is_checked: !item.is_checked, amount: 1 };
+        return updatedItem;
       }
       return item;
     });
-
-    const selected = newData.filter((i) => i.is_checked);
-    setData(newData);
-    setFilteredData(newData);
-    setSelectedData(selected);
-    setTotal(selected.reduce((a, b) => a + b.biaya * b.amount, 0));
-  };
-
-  const deleteHandler = (id) => {
-    deleteData(id);
-    const newData = data.filter((i) => i._id !== id);
-    const selected = newData.filter((i) => i.is_checked);
-
-    setData(newData);
-    setFilteredData(newData);
-    setSelectedData(selected);
-    setTotal(selected.reduce((a, b) => a + b.biaya * b.amount, 0));
-  };
-
-  const updateHandler = (item) => {
-    const updated = updateDataById(item);
-    const newData = data.map((d) =>
-      d._id === updated._id ? updated : d
-    );
-    const selected = newData.filter((i) => i.is_checked);
-
-    setData(newData);
-    setFilteredData(newData);
-    setSelectedData(selected);
-    setTotal(selected.reduce((a, b) => a + b.biaya * b.amount, 0));
-  };
-
-  const addHandler = (kategori, nama, biaya) => {
-    const newItem = addData(kategori, nama, biaya);
-    const newData = [newItem, ...data];
-
-    setData(newData);
-    setFilteredData(newData);
-  };
-
-  const searchHandler = (value) => {
-    if (!value) {
-      setFilteredData(data);
-      return;
+    setData(updatedData);
+    // taruh data yang diklik ke paling bawah
+    const tempSelectedData = [
+      ...updatedData.filter((item) => item.is_checked && item._id != id),
+    ];
+    if (updatedItem.is_checked) {
+      tempSelectedData.push(updatedItem);
     }
-    const v = value.toLowerCase();
-    setFilteredData(
-      data.filter((i) =>
-        `${i.kategori}-${i.nama}`.toLowerCase().includes(v)
-      )
+    setSelectedData(tempSelectedData);
+    setTotal(tempSelectedData.reduce(getTotal, 0));
+    setFilteredData((prev) =>
+      prev.map((item) => {
+        if (item._id == id) {
+          return updatedItem;
+        }
+        return item;
+      })
     );
   };
 
-  /* =======================
-     RENDER
-  ======================= */
+  const updateDataHandler = (item) => {
+    let tempData = updateDataById(item);
+    tempData = data.map((d) => {
+      if (d._id == tempData._id) {
+        return tempData;
+      }
+      return d;
+    });
+    const tempSelectedData = tempData.filter((item) => item.is_checked);
+    setSelectedData(tempSelectedData);
+    setData(tempData);
+    setTotal(tempSelectedData.reduce(getTotal, 0));
+    // setFilteredData(tempData);
+  };
 
-  if (loading) {
+  const addDataHandler = (kategori, nama, biaya) => {
+    let tempData = addData(kategori, nama, biaya);
+    tempData = [tempData, ...data];
+    const tempSelectedData = tempData.filter((item) => item.is_checked);
+    setSelectedData(tempSelectedData);
+    setData(tempData);
+    setTotal(tempSelectedData.reduce(getTotal, 0));
+    setFilteredData(tempData);
+  };
+
+  const deleteDataHandler = (id) => {
+    deleteData(id);
+    let tempData = data.filter((item) => item._id != id);
+    const tempSelectedData = tempData.filter((item) => item.is_checked);
+    setSelectedData(tempSelectedData);
+    setData(tempData);
+    setTotal(tempSelectedData.reduce(getTotal, 0));
+    setFilteredData(tempData);
+  };
+
+  const resetSelection = () => {
+    const dataFetch = data.map((item) => {
+      return { ...item, is_checked: false, is_filtered: false, amount: 1 };
+    });
+    setData(dataFetch);
+    setFilteredData(dataFetch);
+    setSelectedData([]);
+    setTotal(0);
+  };
+
+  const onModalClickHandler = () => {
+    setIsOpen((prev) => !prev);
+  };
+
+  if (!data) {
     return (
-      <div className="text-center mt-10 text-gray-400">
-        Loading data...
+      <div>
+        <h1>...loading</h1>
       </div>
     );
+  } else {
+    pengeluaranComp = (
+      <>
+        {filteredData.length > 0 ? (
+          <ListItem
+            data={filteredData}
+            callback={pengeluaranClickHandler}
+            deleteDataCallback={deleteDataHandler}
+          />
+        ) : (
+          <div className="m-auto text-center text-gray-400">Tidak ada data</div>
+        )}
+      </>
+    );
   }
+  const searchChangeHandler = (input) => {
+    const filterInput = input.toLowerCase();
+    if (filterInput.length < 1) {
+      setFilteredData(data);
+    } else {
+      const tempData = data.filter((item) => {
+        const temp =
+          "" + item.kategori.toLowerCase() + "-" + item.nama.toLowerCase();
+        return temp.includes(filterInput);
+      });
+      setFilteredData(tempData);
+    }
+  };
 
   return (
     <>
       <HomeCard title="Kalkulator Pengeluaran">
-        <SearchForm onChange={searchHandler} />
-
-        {filteredData.length > 0 ? (
-          <ListItem
-            data={filteredData}
-            onClick={toggleItem}
-            onDelete={deleteHandler}
-          />
-        ) : (
-          <div className="text-center text-gray-400">
-            Tidak ada data
-          </div>
-        )}
-
-        <div className="flex justify-between mt-2">
-          <button
-            className="text-sm text-gray-400"
-            onClick={() => setOpenCreate(true)}
+        <div className="space-y-2">
+          {isOpen && (
+            <div className="">
+              <FormModal callback={onModalClickHandler}>
+                <ModalCreateCard
+                  item={data[0]}
+                  callback={onModalClickHandler}
+                  addDataCallback={addDataHandler}
+                  listKategori={[...new Set(data.map((item) => item.kategori))]}
+                />
+              </FormModal>
+            </div>
+          )}
+          <SearchForm callback={searchChangeHandler} />
+          {pengeluaranComp}
+          <div
+            className={`flex space-x-2 p-2 text-gray-600 rounded-lg duration-200 ease-in-out text-center`}
           >
-            tambah data
-          </button>
+            <div className="flex m-auto w-full justify-between items-center">
+              {selectedData.length > 0 ? (
+                <div
+                  className="border rounded-lg border-gray-200 px-4 py-2 text-xs sm:text-sm text-gray-400 hover:text-gray-600 hover:border-gray-400 hover:bg-gray-100 duration-200 ease-in-out hover:cursor-pointer"
+                  onClick={resetSelection}
+                >
+                  reset pilihan
+                </div>
+              ) : (
+                <div
+                  className="border rounded-lg border-gray-200 px-4 py-2 text-xs sm:text-sm text-gray-400 cursor-not-allowed"
+                  // onClick={resetSelection}
+                >
+                  reset pilihan
+                </div>
+              )}
+
+              <div
+                onClick={onModalClickHandler}
+                className="hover:cursor-pointer hover:text-green-500 text-gray-400 duration-200 ease-in-out"
+              >
+                <IconCirclePlus size={30} stroke={2} />
+              </div>
+            </div>
+          </div>
         </div>
       </HomeCard>
-
       <HomeCard
         title={
           <div className="flex justify-between">
             <span>Pengeluaran</span>
-            <span
-              className="cursor-pointer text-blue-500"
-              onClick={() => {
-                navigator.clipboard.writeText(total);
-                setCopied(true);
-                setTimeout(() => setCopied(false), 2000);
-              }}
-            >
-              {formatter.format(total)}
-            </span>
+            <div className="flex space-x-4 relative">
+              Total-
+              <div
+                className="flex space-x-2 items-center w-fit text-blue-500 hover:cursor-pointer hover:underline"
+                onClick={() => {
+                  navigator.clipboard.writeText(total);
+                  setShowTooltip(true);
+                  setTimeout(() => setShowTooltip(false), 2500);
+                }}
+              >
+                <span>{formatter.format(total)}</span>
+
+                <IconCopy size={20} />
+              </div>
+              <span
+                className="absolute -bottom-6 right-2 bg-gray-100 px-2 py-1 rounded text-xs duration-1000 text-black shadow-md z-20"
+                style={{
+                  display: showTooltip ? "block" : "none",
+                }}
+              >
+                Nilai disalin !
+              </span>
+            </div>
           </div>
         }
       >
         {selectedData.length > 0 ? (
-          <SelectedList
+          <ListSelectedItem
             data={selectedData}
-            onUpdate={updateHandler}
-            onDelete={toggleItem}
+            updateDataCallback={updateDataHandler}
+            deleteDataCallback={pengeluaranClickHandler}
           />
         ) : (
-          <div className="text-center text-gray-400">
+          <div className="m-auto text-center text-gray-400">
             Belum ada Pengeluaran
           </div>
         )}
-
-        {copied && (
-          <div className="text-xs text-center mt-2">
-            Nilai disalin!
-          </div>
-        )}
       </HomeCard>
-
-      {openCreate && (
-        <FormModal callback={() => setOpenCreate(false)}>
-          <ModalCreateCard
-            item={data[0]}
-            callback={() => setOpenCreate(false)}
-            addDataCallback={addHandler}
-            listKategori={[...new Set(data.map((i) => i.kategori))]}
-          />
-        </FormModal>
-      )}
     </>
   );
+  // // <main className="bg-gray-50 min-h-screen space-y-4 relative pb-48">
+  //   <nav className="p-4 bg-gray-100 shadow">
+  //     <div>
+  //       <h1 className="text-gray-700 text-xl text-center font-medium">
+  //         {TITLE}
+  //       </h1>
+  //     </div>
+  //   </nav>
+  {
+    /* <div className="w-11/12 md:w-8/12 lg:w-6/12 bg-white m-auto rounded-xl h-fit p-4 space-y-2 shadow">
+        <div className="flex justify-between ">
+          <h1 className="text-lg font-medium text-gray-600">Provinsi Jambi</h1>
+          <Link
+            className="py-1 px-4 rounded-md bg-blue-500 duration-200 ease-in-out hover:bg-blue-400 hover:cursor-pointer shadow-blue-100"
+            href="/admin/login"
+          >
+            <IconLogin size={24} color="white" />
+          </Link>
+        </div>
+      </div> */
+  }
+
+  {
+    /* <footer className="h-24 p-4 bg-gray-100 font-medium text-center m-auto text-sm md:text-base text-gray-600 absolute bottom-0 inset-x-0">
+        Made by{" "}
+        <a href="https://github.com/fikrianggara" className="text-blue-500">
+          Fikri Septrian A.
+        </a>
+        , in collaboration with{" "}
+        <a href="https://tanjabtimkab.bps.go.id/" className="text-blue-500">
+          BPS Tanjung Jabung Timur
+        </a>
+      </footer> */
+  }
+  {
+    /* </main> */
+  }
 }
+
