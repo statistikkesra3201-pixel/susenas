@@ -1,6 +1,6 @@
 [
   {
-    "index": 180,
+    "index": 0,
     "kategori": "PADI-PADIAN",
     "nama_komoditas": "Beras (beras lokal, kualitas unggul, impor)",
     "satuan_subsatuan": "LITER",
@@ -9,7 +9,7 @@
     "id_komoditas": "PADI-PADIAN_Beras (beras lokal, kualitas unggul, impor)"
   },
   {
-    "index": 0,
+    "index": 1,
     "kategori": "PADI-PADIAN",
     "nama_komoditas": "Beras (beras lokal, kualitas unggul, impor)",
     "satuan_subsatuan": "GELAS",
@@ -18,7 +18,7 @@
     "id_komoditas": "PADI-PADIAN_Beras (beras lokal, kualitas unggul, impor)"
   },
   {
-    "index": 3,
+    "index": 2,
     "kategori": "PADI-PADIAN",
     "nama_komoditas": "Beras ketan",
     "satuan_subsatuan": "LITER",
@@ -27,7 +27,7 @@
     "id_komoditas": "PADI-PADIAN_Beras ketan"
   },
   {
-    "index": 4,
+    "index": 3,
     "kategori": "PADI-PADIAN",
     "nama_komoditas": "Beras ketan",
     "satuan_subsatuan": "GELAS",
@@ -36,7 +36,7 @@
     "id_komoditas": "PADI-PADIAN_Beras ketan"
   },
   {
-    "index": 6,
+    "index": 4,
     "kategori": "PADI-PADIAN",
     "nama_komoditas": "Jagung basah dengan kulit",
     "satuan_subsatuan": "BUAH",
@@ -45,7 +45,7 @@
     "id_komoditas": "PADI-PADIAN_Jagung basah dengan kulit"
   },
   {
-    "index": 7,
+    "index": 5,
     "kategori": "PADI-PADIAN",
     "nama_komoditas": "Jagung basah dengan kulit",
     "satuan_subsatuan": "KG",
@@ -54,7 +54,7 @@
     "id_komoditas": "PADI-PADIAN_Jagung basah dengan kulit"
   },
   {
-    "index": 8,
+    "index": 6,
     "kategori": "PADI-PADIAN",
     "nama_komoditas": "Jagung pipilan/beras jagung/jagung titi",
     "satuan_subsatuan": "BUAH",
@@ -63,7 +63,7 @@
     "id_komoditas": "PADI-PADIAN_Jagung pipilan/beras jagung/jagung titi"
   },
   {
-    "index": 9,
+    "index": 7,
     "kategori": "PADI-PADIAN",
     "nama_komoditas": "Tepung terigu",
     "satuan_subsatuan": "BUNGKUS",
@@ -72,7 +72,7 @@
     "id_komoditas": "PADI-PADIAN_Tepung terigu"
   },
     {
-    "index": 1,
+    "index": 8,
     "kategori": "PADI-PADIAN",
     "nama_komoditas": "Tepung terigu",
     "satuan_subsatuan": "SDM",
@@ -81,7 +81,7 @@
     "id_komoditas": "PADI-PADIAN_Tepung terigu"
   },
   {
-    "index": 11,
+    "index": 9,
     "kategori": "UMBI-UMBIAN",
     "nama_komoditas": "Ketela pohon/singkong",
     "satuan_subsatuan": "BUAH",
@@ -90,7 +90,7 @@
     "id_komoditas": "UMBI-UMBIAN_Ketela pohon/singkong"
   },
   {
-    "index": 181,
+    "index": 10,
     "kategori": "UMBI-UMBIAN",
     "nama_komoditas": "Ketela rambat/ubi jalar",
     "satuan_subsatuan": "BUAH",
@@ -99,7 +99,7 @@
     "id_komoditas": "UMBI-UMBIAN_Ketela pohon/singkong"
   },
   {
-    "index": 13,
+    "index": 11,
     "kategori": "UMBI-UMBIAN",
     "nama_komoditas": "Talas/keladi",
     "satuan_subsatuan": "BUAH",
@@ -108,7 +108,7 @@
     "id_komoditas": "UMBI-UMBIAN_Talas/keladi"
   },
   {
-    "index": 14,
+    "index": 12,
     "kategori": "UMBI-UMBIAN",
     "nama_komoditas": "Kentang",
     "satuan_subsatuan": "BUNGKUS",
@@ -117,7 +117,7 @@
     "id_komoditas": "UMBI-UMBIAN_Kentang"
   },
   {
-    "index": 14,
+    "index": 13,
     "kategori": "UMBI-UMBIAN",
     "nama_komoditas": "Kentang",
     "satuan_subsatuan": "BUAH",
@@ -126,7 +126,7 @@
     "id_komoditas": "UMBI-UMBIAN_Kentang"
   },
   {
-    "index": 15,
+    "index": 14,
     "kategori": "IKAN",
     "nama_komoditas": "Ekor kuning",
     "satuan_subsatuan": "EKOR",
@@ -153,7 +153,7 @@
     "id_komoditas": "IKAN_Tongkol, tuna, cakalang, dencis, ikan kayu"
   },
    {
-    "index": 16,
+    "index": 17,
     "kategori": "IKAN",
     "nama_komoditas": "Tongkol, tuna, cakalang, dencis, ikan kayu",
     "satuan_subsatuan": "MIKA",
@@ -162,7 +162,7 @@
     "id_komoditas": "IKAN_Tongkol, tuna, cakalang, dencis, ikan kayu"
   },
   {
-    "index": 17,
+    "index": 18,
     "kategori": "IKAN",
     "nama_komoditas": "Tenggiri",
     "satuan_subsatuan": "EKOR",
@@ -171,7 +171,7 @@
     "id_komoditas": "IKAN_Tenggiri"
   },
   {
-    "index": 18,
+    "index": 19,
     "kategori": "IKAN",
     "nama_komoditas": "Selar",
     "satuan_subsatuan": "BUNGKUS",
@@ -180,7 +180,7 @@
     "id_komoditas": "IKAN_Selar"
   },
   {
-    "index": 19,
+    "index": 20,
     "kategori": "IKAN",
     "nama_komoditas": "Kembung, lema/tatare, banyar/banyara",
     "satuan_subsatuan": "EKOR",
@@ -189,7 +189,7 @@
     "id_komoditas": "IKAN_Kembung, lema/tatare, banyar/banyara"
   },
   {
-    "index": 20,
+    "index": 21,
     "kategori": "IKAN",
     "nama_komoditas": "Teri",
     "satuan_subsatuan": "BUNGKUS",
@@ -198,7 +198,7 @@
     "id_komoditas": "IKAN_Teri"
   },
   {
-    "index": 21,
+    "index": 22,
     "kategori": "IKAN",
     "nama_komoditas": "Bandeng",
     "satuan_subsatuan": "EKOR",
@@ -207,7 +207,7 @@
     "id_komoditas": "IKAN_Bandeng"
   },
   {
-    "index": 22,
+    "index": 23,
     "kategori": "IKAN",
     "nama_komoditas": "Gabus",
     "satuan_subsatuan": "BUNGKUS",
@@ -216,7 +216,7 @@
     "id_komoditas": "IKAN_Gabus"
   },
   {
-    "index": 23,
+    "index": 24,
     "kategori": "IKAN",
     "nama_komoditas": "Mujair",
     "satuan_subsatuan": "EKOR",
@@ -225,7 +225,7 @@
     "id_komoditas": "IKAN_Mujair"
   },
   {
-    "index": 24,
+    "index": 25,
     "kategori": "IKAN",
     "nama_komoditas": "Mas, Nila",
     "satuan_subsatuan": "EKOR",
@@ -234,7 +234,7 @@
     "id_komoditas": "IKAN_Mas, Nila"
   },
   {
-    "index": 25,
+    "index": 26,
     "kategori": "IKAN",
     "nama_komoditas": "Lele",
     "satuan_subsatuan": "EKOR KECIL",
@@ -243,7 +243,7 @@
     "id_komoditas": "IKAN_Lele"
   },
    {
-    "index": 25,
+    "index": 27,
     "kategori": "IKAN",
     "nama_komoditas": "Lele",
     "satuan_subsatuan": "EKOR SEDANG",
@@ -252,7 +252,7 @@
     "id_komoditas": "IKAN_Lele"
   },
   {
-    "index": 26,
+    "index": 28,
     "kategori": "IKAN",
     "nama_komoditas": "Kakap",
     "satuan_subsatuan": "EKOR",
@@ -261,7 +261,7 @@
     "id_komoditas": "IKAN_Kakap"
   },
   {
-    "index": 27,
+    "index": 29,
     "kategori": "IKAN",
     "nama_komoditas": "Baronang",
     "satuan_subsatuan": "EKOR",
@@ -270,7 +270,7 @@
     "id_komoditas": "IKAN_Baronang"
   },
   {
-    "index": 28,
+    "index": 30,
     "kategori": "IKAN",
     "nama_komoditas": "Patin",
     "satuan_subsatuan": "EKOR BESAR",
@@ -279,7 +279,7 @@
     "id_komoditas": "IKAN_Patin"
   },
     {
-    "index": 28,
+    "index": 31,
     "kategori": "IKAN",
     "nama_komoditas": "Patin",
     "satuan_subsatuan": "EKOR SEDANG",
@@ -288,7 +288,7 @@
     "id_komoditas": "IKAN_Patin"
   },
   {
-    "index": 29,
+    "index": 32,
     "kategori": "IKAN",
     "nama_komoditas": "Bawal",
     "satuan_subsatuan": "EKOR",
@@ -297,7 +297,7 @@
     "id_komoditas": "IKAN_Bawal"
   },
   {
-    "index": 30,
+    "index": 33,
     "kategori": "IKAN",
     "nama_komoditas": "Gurame",
     "satuan_subsatuan": "EKOR",
@@ -306,7 +306,7 @@
     "id_komoditas": "IKAN_Gurame"
   },
   {
-    "index": 31,
+    "index": 34,
     "kategori": "IKAN",
     "nama_komoditas": "Ikan segar/basah lainnya (sebutkan): ",
     "satuan_subsatuan": "EKOR",
@@ -315,7 +315,7 @@
     "id_komoditas": "IKAN_Ikan segar/basah lainnya (sebutkan): "
   },
   {
-    "index": 32,
+    "index": 35,
     "kategori": "IKAN",
     "nama_komoditas": "Udang, lobster",
     "satuan_subsatuan": "BUNGKUS",
@@ -324,7 +324,7 @@
     "id_komoditas": "IKAN_Udang, lobster"
   },
   {
-    "index": 33,
+    "index": 36,
     "kategori": "IKAN",
     "nama_komoditas": "Cumi-cumi, sotong, gurita",
     "satuan_subsatuan": "BUNGKUS",
@@ -333,7 +333,7 @@
     "id_komoditas": "IKAN_Cumi-cumi, sotong, gurita"
   },
   {
-    "index": 34,
+    "index": 37,
     "kategori": "IKAN",
     "nama_komoditas": "Ketam, kepiting, rajungan",
     "satuan_subsatuan": "BUNGKUS",
@@ -342,7 +342,7 @@
     "id_komoditas": "IKAN_Ketam, kepiting, rajungan"
   },
   {
-    "index": 35,
+    "index": 38,
     "kategori": "IKAN",
     "nama_komoditas": "Kerang, siput, bekicot, remis",
     "satuan_subsatuan": "BUNGKUS",
@@ -351,7 +351,7 @@
     "id_komoditas": "IKAN_Kerang, siput, bekicot, remis"
   },
   {
-    "index": 36,
+    "index": 39,
     "kategori": "IKAN",
     "nama_komoditas": "Udang dan hewan air lainnya yang segar lainnya (sebutkan): ",
     "satuan_subsatuan": "BUNGKUS",
@@ -360,7 +360,7 @@
     "id_komoditas": "IKAN_Udang dan hewan air lainnya yang segar lainnya (sebutkan): "
   },
   {
-    "index": 37,
+    "index": 40,
     "kategori": "IKAN",
     "nama_komoditas": "Kembung diawetkan/peda ",
     "satuan_subsatuan": "EKOR",
@@ -369,7 +369,7 @@
     "id_komoditas": "IKAN_Kembung diawetkan/peda "
   },
   {
-    "index": 38,
+    "index": 41,
     "kategori": "IKAN",
     "nama_komoditas": "Tenggiri diawetkan",
     "satuan_subsatuan": "EKOR",
@@ -378,7 +378,7 @@
     "id_komoditas": "IKAN_Tenggiri diawetkan"
   },
   {
-    "index": 39,
+    "index": 42,
     "kategori": "IKAN",
     "nama_komoditas": "Tongkol/tuna/cakalang diawetkan",
     "satuan_subsatuan": "EKOR",
@@ -387,7 +387,7 @@
     "id_komoditas": "IKAN_Tongkol/tuna/cakalang diawetkan"
   },
   {
-    "index": 40,
+    "index": 43,
     "kategori": "IKAN",
     "nama_komoditas": "Teri diawetkan",
     "satuan_subsatuan": "BUNGKUS KECIL",
@@ -396,7 +396,7 @@
     "id_komoditas": "IKAN_Teri diawetkan"
   },
   {
-    "index": 40,
+    "index": 44,
     "kategori": "IKAN",
     "nama_komoditas": "Teri diawetkan",
     "satuan_subsatuan": "BUNGKUS SEDANG",
@@ -405,7 +405,7 @@
     "id_komoditas": "IKAN_Teri diawetkan"
   },
   {
-    "index": 40,
+    "index": 45,
     "kategori": "IKAN",
     "nama_komoditas": "Teri diawetkan",
     "satuan_subsatuan": "KG",
@@ -414,7 +414,7 @@
     "id_komoditas": "IKAN_Teri diawetkan"
   },
   {
-    "index": 41,
+    "index": 46,
     "kategori": "IKAN",
     "nama_komoditas": "Selar diawetkan",
     "satuan_subsatuan": "BUNGKUS KECIL",
@@ -423,7 +423,7 @@
     "id_komoditas": "IKAN_Selar diawetkan"
   },
    {
-    "index": 41,
+    "index": 47,
     "kategori": "IKAN",
     "nama_komoditas": "Selar diawetkan",
     "satuan_subsatuan": "BUNGKUS SEDANG",
@@ -432,7 +432,7 @@
     "id_komoditas": "IKAN_Selar diawetkan"
   },
   {
-    "index": 42,
+    "index": 48,
     "kategori": "IKAN",
     "nama_komoditas": "Sepat diawetkan",
     "satuan_subsatuan": "BUNGKUS",
@@ -441,7 +441,7 @@
     "id_komoditas": "IKAN_Sepat diawetkan"
   },
   {
-    "index": 43,
+    "index": 49,
     "kategori": "IKAN",
     "nama_komoditas": "Bandeng diawetkan",
     "satuan_subsatuan": "EKOR",
@@ -450,7 +450,7 @@
     "id_komoditas": "IKAN_Bandeng diawetkan"
   },
   {
-    "index": 44,
+    "index": 50,
     "kategori": "IKAN",
     "nama_komoditas": "Gabus diawetkan ",
     "satuan_subsatuan": "EKOR",
@@ -459,7 +459,7 @@
     "id_komoditas": "IKAN_Gabus diawetkan "
   },
   {
-    "index": 45,
+    "index": 51,
     "kategori": "IKAN",
     "nama_komoditas": "Ikan dalam kaleng (sardencis, tuna dalam kaleng, dsb.)",
     "satuan_subsatuan": "KALENG",
@@ -468,7 +468,7 @@
     "id_komoditas": "IKAN_Ikan dalam kaleng (sardencis, tuna dalam kaleng, dsb.)"
   },
   {
-    "index": 46,
+    "index": 52,
     "kategori": "IKAN",
     "nama_komoditas": "Ikan diawetkan lainnya (sebutkan): ",
     "satuan_subsatuan": "BUNGKUS",
@@ -477,7 +477,7 @@
     "id_komoditas": "IKAN_Ikan diawetkan lainnya (sebutkan): "
   },
   {
-    "index": 47,
+    "index": 53,
     "kategori": "IKAN",
     "nama_komoditas": "Udang diawetkan (ebi, rebon)",
     "satuan_subsatuan": "BUNGKUS",
@@ -486,7 +486,7 @@
     "id_komoditas": "IKAN_Udang diawetkan (ebi, rebon)"
   },
   {
-    "index": 48,
+    "index": 54,
     "kategori": "IKAN",
     "nama_komoditas": "Cumi-cumi, sotong, gurita diawetkan ",
     "satuan_subsatuan": "BUNGKUS",
@@ -495,7 +495,7 @@
     "id_komoditas": "IKAN_Cumi-cumi, sotong, gurita diawetkan "
   },
   {
-    "index": 49,
+    "index": 55,
     "kategori": "IKAN",
     "nama_komoditas": "Udang dan hewan air lainnya yang diawetkan lainnya (sebutkan)",
     "satuan_subsatuan": "BUNGKUS",
@@ -504,7 +504,7 @@
     "id_komoditas": "IKAN_Udang dan hewan air lainnya yang diawetkan lainnya (sebutkan)"
   },
   {
-    "index": 50,
+    "index": 56,
     "kategori": "DAGING",
     "nama_komoditas": "Daging ayam ras",
     "satuan_subsatuan": "EKOR KECIL",
@@ -513,7 +513,7 @@
     "id_komoditas": "DAGING_Daging ayam ras"
   },
   {
-    "index": 51,
+    "index": 57,
     "kategori": "DAGING",
     "nama_komoditas": "Daging ayam ras",
     "satuan_subsatuan": "EKOR SEDANG",
@@ -522,7 +522,7 @@
     "id_komoditas": "DAGING_Daging ayam ras"
   },
    {
-    "index": 51,
+    "index": 58,
     "kategori": "DAGING",
     "nama_komoditas": "Daging ayam ras",
     "satuan_subsatuan": "EKOR BESAR",
@@ -531,7 +531,7 @@
     "id_komoditas": "DAGING_Daging ayam ras"
   },
   {
-    "index": 52,
+    "index": 59,
     "kategori": "DAGING",
     "nama_komoditas": "Daging ayam kampung",
     "satuan_subsatuan": "EKOR SEDANG",
@@ -540,7 +540,7 @@
     "id_komoditas": "DAGING_Daging ayam kampung"
   },
   {
-    "index": 53,
+    "index": 60,
     "kategori": "DAGING",
     "nama_komoditas": "Daging ayam kampung",
     "satuan_subsatuan": "EKOR BESAR",
@@ -549,7 +549,7 @@
     "id_komoditas": "DAGING_Daging ayam kampung"
   },
   {
-    "index": 54,
+    "index": 61,
     "kategori": "DAGING",
     "nama_komoditas": "Daging diawetkan (sebutkan): ",
     "satuan_subsatuan": "BUNGKUS",
@@ -558,7 +558,7 @@
     "id_komoditas": "DAGING_Daging diawetkan (sebutkan): "
   },
   {
-    "index": 55,
+    "index": 62,
     "kategori": "DAGING",
     "nama_komoditas": "Tetelan, sandung lamur",
     "satuan_subsatuan": "BUNGKUS KECIL",
@@ -567,7 +567,7 @@
     "id_komoditas": "DAGING_Tetelan, sandung lamur"
   },
    {
-    "index": 55,
+    "index": 63,
     "kategori": "DAGING",
     "nama_komoditas": "Tetelan, sandung lamur",
     "satuan_subsatuan": "BUNGKUS SEDANG",
@@ -576,7 +576,7 @@
     "id_komoditas": "DAGING_Tetelan, sandung lamur"
   },
   {
-    "index": 56,
+    "index": 64,
     "kategori": "DAGING",
     "nama_komoditas": "Lainnya (hati, jeroan, iga, kaki, buntut, kepala, dsb.)",
     "satuan_subsatuan": "BUNGKUS",
@@ -585,7 +585,7 @@
     "id_komoditas": "DAGING_Lainnya (hati, jeroan, iga, kaki, buntut, kepala, dsb.)"
   },
    {
-    "index": 57,
+    "index": 65,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Telur ayam ras",
     "satuan_subsatuan": "KG",
@@ -594,7 +594,7 @@
     "id_komoditas": "TELUR DAN SUSU_Telur ayam ras"
   },
   {
-    "index": 60,
+    "index": 66,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Telur ayam kampung",
     "satuan_subsatuan": "KG",
@@ -603,7 +603,7 @@
     "id_komoditas": "TELUR DAN SUSU_Telur ayam kampung"
   },
     {
-    "index": 62,
+    "index": 67,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Telur lainnya (telur puyuh, telur asin mentah /matang, telur",
     "satuan_subsatuan": "KG",
@@ -612,7 +612,7 @@
     "id_komoditas": "TELUR DAN SUSU_Telur lainnya (telur puyuh, telur asin mentah /matang, telur"
   },
   {
-    "index": 63,
+    "index": 68,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Telur lainnya (telur puyuh, telur asin mentah /matang, telur",
     "satuan_subsatuan": "KG PUYUH",
@@ -621,7 +621,7 @@
     "id_komoditas": "TELUR DAN SUSU_Telur lainnya (telur puyuh, telur asin mentah /matang, telur"
   },
   {
-    "index": 65,
+    "index": 69,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Susu kental manis ",
     "satuan_subsatuan": "SACHET (40 GR)",
@@ -630,7 +630,7 @@
     "id_komoditas": "TELUR DAN SUSU_Susu kental manis "
   },
   {
-    "index": 66,
+    "index": 70,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Susu bubuk",
     "satuan_subsatuan": "KOTAK KECIL",
@@ -639,7 +639,7 @@
     "id_komoditas": "TELUR DAN SUSU_Susu bubuk"
   },
     {
-    "index": 67,
+    "index": 71,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Susu bubuk",
     "satuan_subsatuan": "KOTAK BESAR",
@@ -648,7 +648,7 @@
     "id_komoditas": "TELUR DAN SUSU_Susu bubuk"
   },
    {
-    "index": 66,
+    "index": 72,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Susu bubuk",
     "satuan_subsatuan": "SACHET",
@@ -657,7 +657,7 @@
     "id_komoditas": "TELUR DAN SUSU_Susu bubuk"
   },
   {
-    "index": 68,
+    "index": 73,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Susu bubuk",
     "satuan_subsatuan": "KALENG KECIL",
@@ -666,7 +666,7 @@
     "id_komoditas": "TELUR DAN SUSU_Susu bubuk"
   },
   {
-    "index": 69,
+    "index": 74,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Susu bubuk",
     "satuan_subsatuan": "KALENG BESAR",
@@ -675,7 +675,7 @@
     "id_komoditas": "TELUR DAN SUSU_Susu bubuk"
   },
   {
-    "index": 70,
+    "index": 75,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Susu bubuk bayi",
     "satuan_subsatuan": "KOTAK KECIL",
@@ -684,7 +684,7 @@
     "id_komoditas": "TELUR DAN SUSU_Susu bubuk bayi"
   },
   {
-    "index": 71,
+    "index": 76,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Susu bubuk bayi",
     "satuan_subsatuan": "KOTAK SEDANG",
@@ -693,7 +693,7 @@
     "id_komoditas": "TELUR DAN SUSU_Susu bubuk bayi"
   },
   {
-    "index": 72,
+    "index": 77,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Susu bubuk bayi",
     "satuan_subsatuan": "KOTAK BESAR",
@@ -702,7 +702,7 @@
     "id_komoditas": "TELUR DAN SUSU_Susu bubuk bayi"
   },
   {
-    "index": 73,
+    "index": 78,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Bayam",
     "satuan_subsatuan": "IKAT",
@@ -711,7 +711,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Bayam"
   },
   {
-    "index": 74,
+    "index": 79,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Kangkung",
     "satuan_subsatuan": "IKAT",
@@ -720,7 +720,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Kangkung"
   },
   {
-    "index": 75,
+    "index": 80,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Kol/kubis",
     "satuan_subsatuan": "POTONG",
@@ -729,7 +729,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Kol/kubis"
   },
   {
-    "index": 76,
+    "index": 81,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Sawi putih (petsai)",
     "satuan_subsatuan": "IKAT",
@@ -738,7 +738,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Sawi putih (petsai)"
   },
   {
-    "index": 77,
+    "index": 82,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Sawi hijau",
     "satuan_subsatuan": "IKAT",
@@ -747,7 +747,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Sawi hijau"
   },
   {
-    "index": 78,
+    "index": 83,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Buncis",
     "satuan_subsatuan": "BUNGKUS",
@@ -756,7 +756,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Buncis"
   },
   {
-    "index": 81,
+    "index": 84,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Kacang panjang",
     "satuan_subsatuan": "IKAT",
@@ -765,7 +765,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Kacang panjang"
   },
   {
-    "index": 82,
+    "index": 85,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Tomat sayur, tomat ceri",
     "satuan_subsatuan": "BUAH",
@@ -774,7 +774,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Tomat sayur, tomat ceri"
   },
   {
-    "index": 82,
+    "index": 86,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Tomat sayur, tomat ceri",
     "satuan_subsatuan": "BUNGKUS",
@@ -783,7 +783,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Tomat sayur, tomat ceri"
   },
   {
-    "index": 83,
+    "index": 87,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Wortel",
     "satuan_subsatuan": "BUAH",
@@ -792,7 +792,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Wortel"
   },
    {
-    "index": 83,
+    "index": 88,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Wortel",
     "satuan_subsatuan": "BUNGKUS",
@@ -801,7 +801,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Wortel"
   },
   {
-    "index": 84,
+    "index": 89,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Mentimun",
     "satuan_subsatuan": "BUNGKUS (3 BIJI)",
@@ -810,7 +810,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Mentimun"
   },
   {
-    "index": 85,
+    "index": 90,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Daun ketela pohon/daun singkong",
     "satuan_subsatuan": "IKAT",
@@ -819,7 +819,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Daun ketela pohon/daun singkong"
   },
   {
-    "index": 86,
+    "index": 91,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Terong",
     "satuan_subsatuan": "BUAH",
@@ -828,7 +828,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Terong"
   },
   {
-    "index": 87,
+    "index": 92,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Tauge",
     "satuan_subsatuan": "BUNGKUS",
@@ -837,7 +837,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Tauge"
   },
   {
-    "index": 88,
+    "index": 93,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Labu, labu siam, labu parang",
     "satuan_subsatuan": "BUAH",
@@ -846,7 +846,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Labu, labu siam, labu parang"
   },
   {
-    "index": 89,
+    "index": 94,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Nangka muda",
     "satuan_subsatuan": "BUNGKUS",
@@ -855,7 +855,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Nangka muda"
   },
   {
-    "index": 90,
+    "index": 95,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Pepaya muda",
     "satuan_subsatuan": "BUAH",
@@ -864,7 +864,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Pepaya muda"
   },
   {
-    "index": 92,
+    "index": 96,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Jengkol",
     "satuan_subsatuan": "BUNGKUS",
@@ -873,7 +873,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Jengkol"
   },
   {
-    "index": 93,
+    "index": 97,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Bawang merah",
     "satuan_subsatuan": "KG",
@@ -882,7 +882,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Bawang merah"
   },
   {
-    "index": 94,
+    "index": 98,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Bawang putih",
     "satuan_subsatuan": "KG",
@@ -891,7 +891,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Bawang putih"
   },
   {
-    "index": 95,
+    "index": 99,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Cabai merah",
     "satuan_subsatuan": "BUNGKUS",
@@ -900,7 +900,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Cabai merah"
   },
   {
-    "index": 96,
+    "index": 100,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Cabai hijau",
     "satuan_subsatuan": "BUNGKUS",
@@ -909,7 +909,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Cabai hijau"
   },
   {
-    "index": 97,
+    "index": 101,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Cabai rawit",
     "satuan_subsatuan": "BUNGKUS",
@@ -918,7 +918,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Cabai rawit"
   },
   {
-    "index": 98,
+    "index": 102,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Sayur-sayuran lainnya (sebutkan): ",
     "satuan_subsatuan": "IKAT",
@@ -927,7 +927,7 @@
     "id_komoditas": "SAYUR-SAYURAN_Sayur-sayuran lainnya (sebutkan): "
   },
   {
-    "index": 99,
+    "index": 103,
     "kategori": "KACANG-KACANGAN",
     "nama_komoditas": "Kacang tanah tanpa kulit",
     "satuan_subsatuan": "BUNGKUS",
@@ -936,7 +936,7 @@
     "id_komoditas": "KACANG-KACANGAN_Kacang tanah tanpa kulit"
   },
   {
-    "index": 100,
+    "index": 104,
     "kategori": "KACANG-KACANGAN",
     "nama_komoditas": "Kacang kedelai",
     "satuan_subsatuan": "BUNGKUS",
@@ -945,7 +945,7 @@
     "id_komoditas": "KACANG-KACANGAN_Kacang kedelai"
   },
   {
-    "index": 101,
+    "index": 105,
     "kategori": "KACANG-KACANGAN",
     "nama_komoditas": "Tahu",
     "satuan_subsatuan": "BUAH KECIL",
@@ -954,7 +954,7 @@
     "id_komoditas": "KACANG-KACANGAN_Tahu"
   },
   {
-    "index": 102,
+    "index": 106,
     "kategori": "KACANG-KACANGAN",
     "nama_komoditas": "Tahu",
     "satuan_subsatuan": "BUAH BESAR",
@@ -963,7 +963,7 @@
     "id_komoditas": "KACANG-KACANGAN_Tahu"
   },
   {
-    "index": 102,
+    "index": 107,
     "kategori": "KACANG-KACANGAN",
     "nama_komoditas": "Tahu",
     "satuan_subsatuan": "BUNGKUS",
@@ -972,7 +972,7 @@
     "id_komoditas": "KACANG-KACANGAN_Tahu"
   },
   {
-    "index": 103,
+    "index": 108,
     "kategori": "KACANG-KACANGAN",
     "nama_komoditas": "Tempe",
     "satuan_subsatuan": "BUNGKUS",
@@ -981,7 +981,7 @@
     "id_komoditas": "KACANG-KACANGAN_Tempe"
   },
   {
-    "index": 104,
+    "index": 109,
     "kategori": "KACANG-KACANGAN",
     "nama_komoditas": "Tempe",
     "satuan_subsatuan": "DAUN BESAR",
@@ -990,7 +990,7 @@
     "id_komoditas": "KACANG-KACANGAN_Tempe"
   },
   {
-    "index": 105,
+    "index": 110,
     "kategori": "KACANG-KACANGAN",
     "nama_komoditas": "Tempe",
     "satuan_subsatuan": "DAUN (SATUAN)",
@@ -999,7 +999,7 @@
     "id_komoditas": "KACANG-KACANGAN_Tempe"
   },
    {
-    "index": 105,
+    "index": 111,
     "kategori": "KACANG-KACANGAN",
     "nama_komoditas": "Oncom",
     "satuan_subsatuan": "BIJI (SATUAN)",
@@ -1007,8 +1007,26 @@
     "satuan_standar": "Ons",
     "id_komoditas": "KACANG-KACANGAN_Oncom"
   },
+   {
+    "index": 112,
+    "kategori": "BUAH-BUAHAN",
+    "nama_komoditas": "Mangga",
+    "satuan_subsatuan": "BUAH",
+    "faktor_pengali": 0.25,
+    "satuan_standar": "Kg",
+    "id_komoditas": "BUAH-BUAHAN_Mangga"
+  },
   {
-    "index": 106,
+    "index": 113,
+    "kategori": "BUAH-BUAHAN",
+    "nama_komoditas": "Mangga",
+    "satuan_subsatuan": "BUNGKUS POTONGAN",
+    "faktor_pengali": 0.04,
+    "satuan_standar": "Kg",
+    "id_komoditas": "BUAH-BUAHAN_Mangga"
+  },
+  {
+    "index": 114,
     "kategori": "BUAH-BUAHAN",
     "nama_komoditas": "Apel",
     "satuan_subsatuan": "BUAH",
@@ -1017,7 +1035,7 @@
     "id_komoditas": "BUAH-BUAHAN_Apel"
   },
   {
-    "index": 107,
+    "index": 115,
     "kategori": "BUAH-BUAHAN",
     "nama_komoditas": "Rambutan",
     "satuan_subsatuan": "IKAT BESAR",
@@ -1026,7 +1044,7 @@
     "id_komoditas": "BUAH-BUAHAN_Rambutan"
   },
   {
-    "index": 108,
+    "index": 116,
     "kategori": "BUAH-BUAHAN",
     "nama_komoditas": "Rambutan",
     "satuan_subsatuan": "IKAT KECIL",
@@ -1035,124 +1053,133 @@
     "id_komoditas": "BUAH-BUAHAN_Rambutan"
   },
   {
-    "index": 109,
+    "index": 117,
     "kategori": "BUAH-BUAHAN",
     "nama_komoditas": "Durian",
     "satuan_subsatuan": "BUNGKUS (DIKUPAS)",
-    "faktor_pengali": 0.1,
+    "faktor_pengali": 0.15,
     "satuan_standar": "Kg",
     "id_komoditas": "BUAH-BUAHAN_Durian"
-  },
-  {
-    "index": 110,
-    "kategori": "BUAH-BUAHAN",
-    "nama_komoditas": "Durian",
-    "satuan_subsatuan": "BUAH KECIL",
-    "faktor_pengali": 1.0,
-    "satuan_standar": "Kg",
-    "id_komoditas": "BUAH-BUAHAN_Durian"
-  },
-  {
-    "index": 111,
-    "kategori": "BUAH-BUAHAN",
-    "nama_komoditas": "Durian",
-    "satuan_subsatuan": "BUAH BESAR",
-    "faktor_pengali": 2.0,
-    "satuan_standar": "Kg",
-    "id_komoditas": "BUAH-BUAHAN_Durian"
-  },
-  {
-    "index": 112,
-    "kategori": "BUAH-BUAHAN",
-    "nama_komoditas": "Pisang ambon",
-    "satuan_subsatuan": "SISIR",
-    "faktor_pengali": 1.0,
-    "satuan_standar": "Kg",
-    "id_komoditas": "BUAH-BUAHAN_Pisang ambon"
-  },
-  {
-    "index": 113,
-    "kategori": "BUAH-BUAHAN",
-    "nama_komoditas": "Pisang ambon",
-    "satuan_subsatuan": "TANDAN",
-    "faktor_pengali": 2.0,
-    "satuan_standar": "Kg",
-    "id_komoditas": "BUAH-BUAHAN_Pisang ambon"
-  },
-  {
-    "index": 114,
-    "kategori": "BUAH-BUAHAN",
-    "nama_komoditas": "Pisang lainnya (sebutkan):  ",
-    "satuan_subsatuan": "SISIR",
-    "faktor_pengali": 0.5,
-    "satuan_standar": "Kg",
-    "id_komoditas": "BUAH-BUAHAN_Pisang lainnya (sebutkan):  "
-  },
-  {
-    "index": 115,
-    "kategori": "BUAH-BUAHAN",
-    "nama_komoditas": "Pisang lainnya (sebutkan):  ",
-    "satuan_subsatuan": "TANDAN",
-    "faktor_pengali": 1.0,
-    "satuan_standar": "Kg",
-    "id_komoditas": "BUAH-BUAHAN_Pisang lainnya (sebutkan):  "
-  },
-  {
-    "index": 116,
-    "kategori": "BUAH-BUAHAN",
-    "nama_komoditas": "Pepaya",
-    "satuan_subsatuan": "BUAH KECIL",
-    "faktor_pengali": 0.5,
-    "satuan_standar": "Kg",
-    "id_komoditas": "BUAH-BUAHAN_Pepaya"
-  },
-  {
-    "index": 117,
-    "kategori": "BUAH-BUAHAN",
-    "nama_komoditas": "Pepaya",
-    "satuan_subsatuan": "BUAH NESAR",
-    "faktor_pengali": 1.0,
-    "satuan_standar": "Kg",
-    "id_komoditas": "BUAH-BUAHAN_Pepaya"
   },
   {
     "index": 118,
     "kategori": "BUAH-BUAHAN",
-    "nama_komoditas": "Semangka",
+    "nama_komoditas": "Durian",
     "satuan_subsatuan": "BUAH KECIL",
-    "faktor_pengali": 2.5,
+    "faktor_pengali": 1.0,
     "satuan_standar": "Kg",
-    "id_komoditas": "BUAH-BUAHAN_Semangka"
+    "id_komoditas": "BUAH-BUAHAN_Durian"
   },
   {
     "index": 119,
     "kategori": "BUAH-BUAHAN",
-    "nama_komoditas": "Semangka",
+    "nama_komoditas": "Durian",
     "satuan_subsatuan": "BUAH BESAR",
-    "faktor_pengali": 6.0,
+    "faktor_pengali": 2.0,
     "satuan_standar": "Kg",
-    "id_komoditas": "BUAH-BUAHAN_Semangka"
+    "id_komoditas": "BUAH-BUAHAN_Durian"
   },
-  {
+   {
     "index": 120,
     "kategori": "BUAH-BUAHAN",
-    "nama_komoditas": "Tomat buah",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "nama_komoditas": "Salak",
+    "satuan_subsatuan": "BUAH",
+    "faktor_pengali": 0.08,
     "satuan_standar": "Kg",
-    "id_komoditas": "BUAH-BUAHAN_Tomat buah"
+    "id_komoditas": "BUAH-BUAHAN_Salak"
   },
   {
     "index": 121,
     "kategori": "BUAH-BUAHAN",
-    "nama_komoditas": "Buah-buahan lainnya (sebutkan):",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "nama_komoditas": "Pisang ambon",
+    "satuan_subsatuan": "SISIR",
+    "faktor_pengali": 1.2,
     "satuan_standar": "Kg",
-    "id_komoditas": "BUAH-BUAHAN_Buah-buahan lainnya (sebutkan):"
+    "id_komoditas": "BUAH-BUAHAN_Pisang ambon"
   },
   {
     "index": 122,
+    "kategori": "BUAH-BUAHAN",
+    "nama_komoditas": "Pisang ambon",
+    "satuan_subsatuan": "TANDAN",
+    "faktor_pengali": 2.0,
+    "satuan_standar": "Kg",
+    "id_komoditas": "BUAH-BUAHAN_Pisang ambon"
+  },
+  {
+    "index": 123,
+    "kategori": "BUAH-BUAHAN",
+    "nama_komoditas": "Pisang lainnya (sebutkan):  ",
+    "satuan_subsatuan": "SISIR",
+    "faktor_pengali": 0.6,
+    "satuan_standar": "Kg",
+    "id_komoditas": "BUAH-BUAHAN_Pisang lainnya (sebutkan):  "
+  },
+  {
+    "index": 124,
+    "kategori": "BUAH-BUAHAN",
+    "nama_komoditas": "Pisang lainnya (sebutkan):  ",
+    "satuan_subsatuan": "TANDAN",
+    "faktor_pengali": 1.0,
+    "satuan_standar": "Kg",
+    "id_komoditas": "BUAH-BUAHAN_Pisang lainnya (sebutkan):  "
+  },
+  {
+    "index": 125,
+    "kategori": "BUAH-BUAHAN",
+    "nama_komoditas": "Pepaya",
+    "satuan_subsatuan": "BUAH KECIL",
+    "faktor_pengali": 0.7,
+    "satuan_standar": "Kg",
+    "id_komoditas": "BUAH-BUAHAN_Pepaya"
+  },
+  {
+    "index": 126,
+    "kategori": "BUAH-BUAHAN",
+    "nama_komoditas": "Pepaya",
+    "satuan_subsatuan": "BUAH NESAR",
+    "faktor_pengali": 1.3,
+    "satuan_standar": "Kg",
+    "id_komoditas": "BUAH-BUAHAN_Pepaya"
+  },
+  {
+    "index": 127,
+    "kategori": "BUAH-BUAHAN",
+    "nama_komoditas": "Semangka",
+    "satuan_subsatuan": "BUAH KECIL",
+    "faktor_pengali": 2.0,
+    "satuan_standar": "Kg",
+    "id_komoditas": "BUAH-BUAHAN_Semangka"
+  },
+  {
+    "index": 128,
+    "kategori": "BUAH-BUAHAN",
+    "nama_komoditas": "Semangka",
+    "satuan_subsatuan": "BUAH BESAR",
+    "faktor_pengali": 3.5,
+    "satuan_standar": "Kg",
+    "id_komoditas": "BUAH-BUAHAN_Semangka"
+  },
+  {
+    "index": 129,
+    "kategori": "BUAH-BUAHAN",
+    "nama_komoditas": "Tomat buah",
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.5,
+    "satuan_standar": "Kg",
+    "id_komoditas": "BUAH-BUAHAN_Tomat buah"
+  },
+   {
+    "index": 130,
+    "kategori": "BUAH-BUAHAN",
+    "nama_komoditas": "Alpukat",
+    "satuan_subsatuan": "BUAH",
+    "faktor_pengali": 0.4,
+    "satuan_standar": "Kg",
+    "id_komoditas": "BUAH-BUAHAN_Alpukat"
+  },
+  {
+    "index": 131,
     "kategori": "MINYAK DAN KELAPA",
     "nama_komoditas": "Minyak kelapa",
     "satuan_subsatuan": "KG",
@@ -1161,7 +1188,7 @@
     "id_komoditas": "MINYAK DAN KELAPA_Minyak kelapa"
   },
   {
-    "index": 123,
+    "index": 132,
     "kategori": "MINYAK DAN KELAPA",
     "nama_komoditas": "Minyak kelapa",
     "satuan_subsatuan": "BOTOL",
@@ -1170,7 +1197,7 @@
     "id_komoditas": "MINYAK DAN KELAPA_Minyak kelapa"
   },
   {
-    "index": 124,
+    "index": 133,
     "kategori": "MINYAK DAN KELAPA",
     "nama_komoditas": "Minyak goreng (kelapa sawit, bunga matahari)",
     "satuan_subsatuan": "KG",
@@ -1179,52 +1206,52 @@
     "id_komoditas": "MINYAK DAN KELAPA_Minyak goreng (kelapa sawit, bunga matahari)"
   },
   {
-    "index": 125,
+    "index": 134,
     "kategori": "BAHAN MINUMAN",
     "nama_komoditas": "Gula pasir",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 1.0,
+    "satuan_subsatuan": "KG",
+    "faktor_pengali": 10.0,
     "satuan_standar": "Ons",
     "id_komoditas": "BAHAN MINUMAN_Gula pasir"
   },
   {
-    "index": 126,
+    "index": 135,
     "kategori": "BAHAN MINUMAN",
     "nama_komoditas": "Gula pasir",
     "satuan_subsatuan": "SENDOK TEH",
-    "faktor_pengali": 0.7,
+    "faktor_pengali": 0.6,
     "satuan_standar": "Ons",
     "id_komoditas": "BAHAN MINUMAN_Gula pasir"
   },
   {
-    "index": 127,
+    "index": 136,
     "kategori": "BAHAN MINUMAN",
     "nama_komoditas": "Gula pasir",
     "satuan_subsatuan": "SENDOK MAKAN",
-    "faktor_pengali": 0.9,
+    "faktor_pengali": 0.1,
     "satuan_standar": "Ons",
     "id_komoditas": "BAHAN MINUMAN_Gula pasir"
   },
   {
-    "index": 128,
+    "index": 137,
     "kategori": "BAHAN MINUMAN",
     "nama_komoditas": "Gula merah, gula air (pohon aren, kelapa, lontar)",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.0,
+    "satuan_subsatuan": "KG",
+    "faktor_pengali": 10.0,
     "satuan_standar": "Ons",
     "id_komoditas": "BAHAN MINUMAN_Gula merah, gula air (pohon aren, kelapa, lontar)"
   },
   {
-    "index": 129,
+    "index": 138,
     "kategori": "BAHAN MINUMAN",
     "nama_komoditas": "Gula merah, gula air (pohon aren, kelapa, lontar)",
-    "satuan_subsatuan": "BATOK",
+    "satuan_subsatuan": "TABUNG/SILINDER/BUT",
     "faktor_pengali": 1.0,
     "satuan_standar": "Ons",
     "id_komoditas": "BAHAN MINUMAN_Gula merah, gula air (pohon aren, kelapa, lontar)"
   },
   {
-    "index": 130,
+    "index": 139,
     "kategori": "BAHAN MINUMAN",
     "nama_komoditas": "Teh bubuk",
     "satuan_subsatuan": "KEPING",
@@ -1233,25 +1260,25 @@
     "id_komoditas": "BAHAN MINUMAN_Teh bubuk"
   },
   {
-    "index": 131,
+    "index": 140,
     "kategori": "BAHAN MINUMAN",
     "nama_komoditas": "Teh bubuk",
-    "satuan_subsatuan": "BUNGKUS",
-    "faktor_pengali": 0.5,
+    "satuan_subsatuan": "SACHET",
+    "faktor_pengali": 0.4,
     "satuan_standar": "Ons",
     "id_komoditas": "BAHAN MINUMAN_Teh bubuk"
   },
   {
-    "index": 132,
+    "index": 141,
     "kategori": "BAHAN MINUMAN",
     "nama_komoditas": "Kopi (bubuk, biji)",
     "satuan_subsatuan": "BUNGKUS KECIL",
-    "faktor_pengali": 0.5,
+    "faktor_pengali": 0.2,
     "satuan_standar": "Ons",
     "id_komoditas": "BAHAN MINUMAN_Kopi (bubuk, biji)"
   },
   {
-    "index": 133,
+    "index": 142,
     "kategori": "BAHAN MINUMAN",
     "nama_komoditas": "Kopi (bubuk, biji)",
     "satuan_subsatuan": "BUNGKUS SEDANG",
@@ -1260,7 +1287,7 @@
     "id_komoditas": "BAHAN MINUMAN_Kopi (bubuk, biji)"
   },
   {
-    "index": 134,
+    "index": 143,
     "kategori": "BAHAN MINUMAN",
     "nama_komoditas": "Kopi (bubuk, biji)",
     "satuan_subsatuan": "BUNGKUS BESAR",
@@ -1269,7 +1296,7 @@
     "id_komoditas": "BAHAN MINUMAN_Kopi (bubuk, biji)"
   },
   {
-    "index": 135,
+    "index": 144,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Garam",
     "satuan_subsatuan": "SENDOK TEH",
@@ -1278,7 +1305,7 @@
     "id_komoditas": "BUMBU-BUMBUAN_Garam"
   },
   {
-    "index": 136,
+    "index": 145,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Garam",
     "satuan_subsatuan": "SENDOK MAKAN",
@@ -1287,7 +1314,7 @@
     "id_komoditas": "BUMBU-BUMBUAN_Garam"
   },
   {
-    "index": 137,
+    "index": 146,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Kemiri",
     "satuan_subsatuan": "BUNGKUS",
@@ -1296,7 +1323,7 @@
     "id_komoditas": "BUMBU-BUMBUAN_Kemiri"
   },
   {
-    "index": 138,
+    "index": 147,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Ketumbar/jinten",
     "satuan_subsatuan": "BUNGKUS",
@@ -1305,7 +1332,7 @@
     "id_komoditas": "BUMBU-BUMBUAN_Ketumbar/jinten"
   },
   {
-    "index": 139,
+    "index": 148,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Merica/lada",
     "satuan_subsatuan": "BUNGKUS",
@@ -1314,7 +1341,7 @@
     "id_komoditas": "BUMBU-BUMBUAN_Merica/lada"
   },
   {
-    "index": 140,
+    "index": 149,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Merica/lada",
     "satuan_subsatuan": "SACHET",
@@ -1322,8 +1349,26 @@
     "satuan_standar": "Gram",
     "id_komoditas": "BUMBU-BUMBUAN_Merica/lada"
   },
+   {
+    "index": 150,
+    "kategori": "BUMBU-BUMBUAN",
+    "nama_komoditas": "Jahe",
+    "satuan_subsatuan": "RUAS JARI",
+    "faktor_pengali": 6.95,
+    "satuan_standar": "Gram",
+    "id_komoditas": "BUMBU-BUMBUAN_Jahe"
+  },
+   {
+    "index": 151,
+    "kategori": "BUMBU-BUMBUAN",
+    "nama_komoditas": "Kunyit",
+    "satuan_subsatuan": "RUAS JARI",
+    "faktor_pengali": 3.5,
+    "satuan_standar": "Gram",
+    "id_komoditas": "BUMBU-BUMBUAN_Kunyit"
+  },
   {
-    "index": 141,
+    "index": 152,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Asam",
     "satuan_subsatuan": "BUNGKUS KECIL",
@@ -1332,34 +1377,43 @@
     "id_komoditas": "BUMBU-BUMBUAN_Asam"
   },
   {
-    "index": 142,
+    "index": 153,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Asam",
     "satuan_subsatuan": "BUNGKUS BESAR",
-    "faktor_pengali": 250.0,
+    "faktor_pengali": 25.0,
     "satuan_standar": "Gram",
     "id_komoditas": "BUMBU-BUMBUAN_Asam"
   },
   {
-    "index": 143,
+    "index": 154,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Terasi/petis",
     "satuan_subsatuan": "SACHET",
-    "faktor_pengali": 4.0,
+    "faktor_pengali": 5.0,
     "satuan_standar": "Gram",
     "id_komoditas": "BUMBU-BUMBUAN_Terasi/petis"
   },
-  {
-    "index": 144,
+   {
+    "index": 155,
     "kategori": "BUMBU-BUMBUAN",
-    "nama_komoditas": "Terasi/petis",
+    "nama_komoditas": "Kecap",
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.15,
+    "satuan_standar": "100 ml",
+    "id_komoditas": "BUMBU-BUMBUAN_Kecap"
+  },
+   {
+    "index": 156,
+    "kategori": "BUMBU-BUMBUAN",
+    "nama_komoditas": "Kecap",
     "satuan_subsatuan": "BOTOL",
-    "faktor_pengali": 250.0,
-    "satuan_standar": "Gram",
-    "id_komoditas": "BUMBU-BUMBUAN_Terasi/petis"
+    "faktor_pengali": 1.35,
+    "satuan_standar": "100 ml",
+    "id_komoditas": "BUMBU-BUMBUAN_Kecap"
   },
   {
-    "index": 145,
+    "index": 157,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Penyedap masakan/vetsin",
     "satuan_subsatuan": "SACHET BESAR",
@@ -1368,7 +1422,7 @@
     "id_komoditas": "BUMBU-BUMBUAN_Penyedap masakan/vetsin"
   },
   {
-    "index": 146,
+    "index": 158,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Penyedap masakan/vetsin",
     "satuan_subsatuan": "SACHET KECIL",
@@ -1377,16 +1431,25 @@
     "id_komoditas": "BUMBU-BUMBUAN_Penyedap masakan/vetsin"
   },
   {
-    "index": 147,
+    "index": 159,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Sambal jadi",
     "satuan_subsatuan": "SACHET",
-    "faktor_pengali": 200.0,
-    "satuan_standar": "Ml",
+    "faktor_pengali": 2.0,
+    "satuan_standar": "100 Ml",
     "id_komoditas": "BUMBU-BUMBUAN_Sambal jadi"
   },
+    {
+    "index": 160,
+    "kategori": "BUMBU-BUMBUAN",
+    "nama_komoditas": "Saus Tomat",
+    "satuan_subsatuan": "SACHET",
+    "faktor_pengali": 2.0,
+    "satuan_standar": "100 Ml",
+    "id_komoditas": "BUMBU-BUMBUAN_Saus Tomat"
+  },
   {
-    "index": 148,
+    "index": 161,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Bumbu masak jadi/kemasan, bumbu racikan",
     "satuan_subsatuan": "BOTOL PLASTIK",
@@ -1395,7 +1458,7 @@
     "id_komoditas": "BUMBU-BUMBUAN_Bumbu masak jadi/kemasan, bumbu racikan"
   },
   {
-    "index": 149,
+    "index": 162,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Bumbu masak jadi/kemasan, bumbu racikan",
     "satuan_subsatuan": "BOTOL KACA",
@@ -1404,7 +1467,7 @@
     "id_komoditas": "BUMBU-BUMBUAN_Bumbu masak jadi/kemasan, bumbu racikan"
   },
   {
-    "index": 150,
+    "index": 163,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Bumbu masak jadi/kemasan, bumbu racikan",
     "satuan_subsatuan": "SACHET KECIL",
@@ -1413,7 +1476,7 @@
     "id_komoditas": "BUMBU-BUMBUAN_Bumbu masak jadi/kemasan, bumbu racikan"
   },
   {
-    "index": 151,
+    "index": 164,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Bumbu masak jadi/kemasan, bumbu racikan",
     "satuan_subsatuan": "SACHET BESAR",
@@ -1422,34 +1485,16 @@
     "id_komoditas": "BUMBU-BUMBUAN_Bumbu masak jadi/kemasan, bumbu racikan"
   },
   {
-    "index": 152,
+    "index": 165,
     "kategori": "BUMBU-BUMBUAN",
     "nama_komoditas": "Bumbu dapur lainnya (pala, jahe, kunyit, dsb.)",
-    "satuan_subsatuan": "MATO",
+    "satuan_subsatuan": "BUNGKUS",
     "faktor_pengali": 100.0,
     "satuan_standar": "Gram",
     "id_komoditas": "BUMBU-BUMBUAN_Bumbu dapur lainnya (pala, jahe, kunyit, dsb.)"
   },
   {
-    "index": 153,
-    "kategori": "BUMBU-BUMBUAN",
-    "nama_komoditas": "Bumbu dapur lainnya (pala, jahe, kunyit, dsb.)",
-    "satuan_subsatuan": "KUNYIT",
-    "faktor_pengali": 10.0,
-    "satuan_standar": "Gram",
-    "id_komoditas": "BUMBU-BUMBUAN_Bumbu dapur lainnya (pala, jahe, kunyit, dsb.)"
-  },
-  {
-    "index": 154,
-    "kategori": "BUMBU-BUMBUAN",
-    "nama_komoditas": "Bumbu dapur lainnya (pala, jahe, kunyit, dsb.)",
-    "satuan_subsatuan": "SACHET",
-    "faktor_pengali": 23.0,
-    "satuan_standar": "Gram",
-    "id_komoditas": "BUMBU-BUMBUAN_Bumbu dapur lainnya (pala, jahe, kunyit, dsb.)"
-  },
-  {
-    "index": 155,
+    "index": 166,
     "kategori": "BAHAN MAKANAN LAINNYA",
     "nama_komoditas": "Mie instan",
     "satuan_subsatuan": "MIE GELAS",
@@ -1458,16 +1503,25 @@
     "id_komoditas": "BAHAN MAKANAN LAINNYA_Mie instan"
   },
   {
-    "index": 156,
+    "index": 167,
     "kategori": "BAHAN MAKANAN LAINNYA",
-    "nama_komoditas": "Mie instan",
-    "satuan_subsatuan": "BUNGKUS BESAR",
-    "faktor_pengali": 16.0,
-    "satuan_standar": "Bungkus",
-    "id_komoditas": "BAHAN MAKANAN LAINNYA_Mie instan"
+    "nama_komoditas": "Kerupuk",
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 2.5,
+    "satuan_standar": "Ons",
+    "id_komoditas": "BAHAN MAKANAN LAINNYA_Kerupuk"
+  },
+    {
+    "index": 168,
+    "kategori": "BAHAN MAKANAN LAINNYA",
+    "nama_komoditas": "Kerupuk",
+    "satuan_subsatuan": "KG",
+    "faktor_pengali": 10.0,
+    "satuan_standar": "Ons",
+    "id_komoditas": "BAHAN MAKANAN LAINNYA_Kerupuk"
   },
   {
-    "index": 157,
+    "index": 169,
     "kategori": "BAHAN MAKANAN LAINNYA",
     "nama_komoditas": "Bubur bayi kemasan",
     "satuan_subsatuan": "KOTAK",
@@ -1476,25 +1530,25 @@
     "id_komoditas": "BAHAN MAKANAN LAINNYA_Bubur bayi kemasan"
   },
   {
-    "index": 158,
+    "index": 170,
     "kategori": "BAHAN MAKANAN LAINNYA",
     "nama_komoditas": "Bubur bayi kemasan",
     "satuan_subsatuan": "KOTAK SEDANG",
-    "faktor_pengali": 130.0,
+    "faktor_pengali": 1.3,
     "satuan_standar": "Kotak",
     "id_komoditas": "BAHAN MAKANAN LAINNYA_Bubur bayi kemasan"
   },
   {
-    "index": 159,
+    "index": 171,
     "kategori": "BAHAN MAKANAN LAINNYA",
     "nama_komoditas": "Bubur bayi kemasan",
-    "satuan_subsatuan": "SACHET",
-    "faktor_pengali": 0.13,
+    "satuan_subsatuan": "SACHET (120 GR)",
+    "faktor_pengali": 0.50,
     "satuan_standar": "Kotak Kecl",
     "id_komoditas": "BAHAN MAKANAN LAINNYA_Bubur bayi kemasan"
   },
   {
-    "index": 160,
+    "index": 172,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Roti tawar",
     "satuan_subsatuan": "BUNGKUS KECIL",
@@ -1503,7 +1557,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Roti tawar"
   },
   {
-    "index": 161,
+    "index": 173,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Roti tawar",
     "satuan_subsatuan": "BUNGKUS BESAR",
@@ -1512,7 +1566,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Roti tawar"
   },
   {
-    "index": 162,
+    "index": 174,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Air kemasan",
     "satuan_subsatuan": "BOTOL KECIL",
@@ -1521,7 +1575,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Air kemasan"
   },
   {
-    "index": 163,
+    "index": 175,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Air kemasan",
     "satuan_subsatuan": "BOTOL SEDANG",
@@ -1530,7 +1584,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Air kemasan"
   },
   {
-    "index": 164,
+    "index": 176,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Air kemasan",
     "satuan_subsatuan": "GELAS",
@@ -1539,7 +1593,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Air kemasan"
   },
   {
-    "index": 165,
+    "index": 177,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Air kemasan gallon",
     "satuan_subsatuan": "GALON KECIL",
@@ -1548,7 +1602,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Air kemasan gallon"
   },
   {
-    "index": 166,
+    "index": 178,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Air kemasan gallon",
     "satuan_subsatuan": "GALON SEDANG",
@@ -1557,7 +1611,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Air kemasan gallon"
   },
   {
-    "index": 167,
+    "index": 179,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Air teh kemasan, minuman bersoda/ mengandung CO2",
     "satuan_subsatuan": "GELAS",
@@ -1566,7 +1620,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Air teh kemasan, minuman bersoda/ mengandung CO2"
   },
   {
-    "index": 168,
+    "index": 180,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Air teh kemasan, minuman bersoda/ mengandung CO2",
     "satuan_subsatuan": "BOTOL",
@@ -1575,7 +1629,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Air teh kemasan, minuman bersoda/ mengandung CO2"
   },
   {
-    "index": 169,
+    "index": 181,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Air teh kemasan, minuman bersoda/ mengandung CO2",
     "satuan_subsatuan": "KOTAK",
@@ -1584,7 +1638,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Air teh kemasan, minuman bersoda/ mengandung CO2"
   },
   {
-    "index": 170,
+    "index": 182,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Sari buah kemasan, minuman kesehatan, minuman berenergi",
     "satuan_subsatuan": "GELAS",
@@ -1593,7 +1647,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Sari buah kemasan, minuman kesehatan, minuman berenergi"
   },
   {
-    "index": 171,
+    "index": 183,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Sari buah kemasan, minuman kesehatan, minuman berenergi",
     "satuan_subsatuan": "BOTOL",
@@ -1602,7 +1656,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Sari buah kemasan, minuman kesehatan, minuman berenergi"
   },
   {
-    "index": 172,
+    "index": 184,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Sari buah kemasan, minuman kesehatan, minuman berenergi",
     "satuan_subsatuan": "MANGKOK",
@@ -1611,7 +1665,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Sari buah kemasan, minuman kesehatan, minuman berenergi"
   },
   {
-    "index": 173,
+    "index": 185,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Es krim",
     "satuan_subsatuan": "BUNGKUS",
@@ -1620,7 +1674,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Es krim"
   },
   {
-    "index": 174,
+    "index": 186,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Es krim",
     "satuan_subsatuan": "POTONG",
@@ -1629,7 +1683,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Es krim"
   },
   {
-    "index": 175,
+    "index": 187,
     "kategori": "MAKANAN DAN MINUMAN JADI",
     "nama_komoditas": "Es lainnya (sebutkan)",
     "satuan_subsatuan": "MANGKOK",
@@ -1638,7 +1692,7 @@
     "id_komoditas": "MAKANAN DAN MINUMAN JADI_Es lainnya (sebutkan)"
   },
   {
-    "index": 176,
+    "index": 188,
     "kategori": "ROKOK DAN TEMBAKAU",
     "nama_komoditas": "Rokok kretek filter",
     "satuan_subsatuan": "BUNGKUS KECIL",
@@ -1647,7 +1701,7 @@
     "id_komoditas": "ROKOK DAN TEMBAKAU_Rokok kretek filter"
   },
   {
-    "index": 177,
+    "index": 189,
     "kategori": "ROKOK DAN TEMBAKAU",
     "nama_komoditas": "Rokok kretek filter",
     "satuan_subsatuan": "BUNGKUS BESAR",
@@ -1656,7 +1710,7 @@
     "id_komoditas": "ROKOK DAN TEMBAKAU_Rokok kretek filter"
   },
   {
-    "index": 178,
+    "index": 190,
     "kategori": "ROKOK DAN TEMBAKAU",
     "nama_komoditas": "Rokok kretek tanpa filter",
     "satuan_subsatuan": "BUNGKUS KECIL",
@@ -1665,7 +1719,7 @@
     "id_komoditas": "ROKOK DAN TEMBAKAU_Rokok kretek tanpa filter"
   },
   {
-    "index": 179,
+    "index": 191,
     "kategori": "ROKOK DAN TEMBAKAU",
     "nama_komoditas": "Rokok kretek tanpa filter",
     "satuan_subsatuan": "BUNGKUS BESAR",
