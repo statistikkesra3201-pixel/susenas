@@ -561,8 +561,17 @@
     "index": 55,
     "kategori": "DAGING",
     "nama_komoditas": "Tetelan, sandung lamur",
-    "satuan_subsatuan": "MATO",
+    "satuan_subsatuan": "BUNGKUS KECIL",
     "faktor_pengali": 0.1,
+    "satuan_standar": "Kg",
+    "id_komoditas": "DAGING_Tetelan, sandung lamur"
+  },
+   {
+    "index": 55,
+    "kategori": "DAGING",
+    "nama_komoditas": "Tetelan, sandung lamur",
+    "satuan_subsatuan": "BUNGKUS SEDANG",
+    "faktor_pengali": 0.25,
     "satuan_standar": "Kg",
     "id_komoditas": "DAGING_Tetelan, sandung lamur"
   },
@@ -570,35 +579,17 @@
     "index": 56,
     "kategori": "DAGING",
     "nama_komoditas": "Lainnya (hati, jeroan, iga, kaki, buntut, kepala, dsb.)",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.50,
     "satuan_standar": "Kg",
     "id_komoditas": "DAGING_Lainnya (hati, jeroan, iga, kaki, buntut, kepala, dsb.)"
   },
-  {
+   {
     "index": 57,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Telur ayam ras",
-    "satuan_subsatuan": "PAPAN",
-    "faktor_pengali": 30.0,
-    "satuan_standar": "Butir",
-    "id_komoditas": "TELUR DAN SUSU_Telur ayam ras"
-  },
-  {
-    "index": 58,
-    "kategori": "TELUR DAN SUSU",
-    "nama_komoditas": "Telur ayam ras",
-    "satuan_subsatuan": "PIRING",
-    "faktor_pengali": 30.0,
-    "satuan_standar": "Butir",
-    "id_komoditas": "TELUR DAN SUSU_Telur ayam ras"
-  },
-  {
-    "index": 59,
-    "kategori": "TELUR DAN SUSU",
-    "nama_komoditas": "Telur ayam ras",
-    "satuan_subsatuan": "BUNGKUS",
-    "faktor_pengali": 10.0,
+    "satuan_subsatuan": "KG",
+    "faktor_pengali": 16.0,
     "satuan_standar": "Butir",
     "id_komoditas": "TELUR DAN SUSU_Telur ayam ras"
   },
@@ -606,26 +597,17 @@
     "index": 60,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Telur ayam kampung",
-    "satuan_subsatuan": "PAPAN",
-    "faktor_pengali": 30.0,
+    "satuan_subsatuan": "KG",
+    "faktor_pengali": 16.0,
     "satuan_standar": "Butir",
     "id_komoditas": "TELUR DAN SUSU_Telur ayam kampung"
   },
-  {
-    "index": 61,
-    "kategori": "TELUR DAN SUSU",
-    "nama_komoditas": "Telur ayam kampung",
-    "satuan_subsatuan": "PIRING",
-    "faktor_pengali": 30.0,
-    "satuan_standar": "Butir",
-    "id_komoditas": "TELUR DAN SUSU_Telur ayam kampung"
-  },
-  {
+    {
     "index": 62,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Telur lainnya (telur puyuh, telur asin mentah /matang, telur",
-    "satuan_subsatuan": "PAPAN               ",
-    "faktor_pengali": 10.0,
+    "satuan_subsatuan": "KG",
+    "faktor_pengali": 16.0,
     "satuan_standar": "Butir",
     "id_komoditas": "TELUR DAN SUSU_Telur lainnya (telur puyuh, telur asin mentah /matang, telur"
   },
@@ -633,17 +615,8 @@
     "index": 63,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Telur lainnya (telur puyuh, telur asin mentah /matang, telur",
-    "satuan_subsatuan": "PIRING              ",
-    "faktor_pengali": 10.0,
-    "satuan_standar": "Butir",
-    "id_komoditas": "TELUR DAN SUSU_Telur lainnya (telur puyuh, telur asin mentah /matang, telur"
-  },
-  {
-    "index": 64,
-    "kategori": "TELUR DAN SUSU",
-    "nama_komoditas": "Telur lainnya (telur puyuh, telur asin mentah /matang, telur",
-    "satuan_subsatuan": "BUNGKUS ",
-    "faktor_pengali": 9.0,
+    "satuan_subsatuan": "KG PUYUH",
+    "faktor_pengali": 80.0,
     "satuan_standar": "Butir",
     "id_komoditas": "TELUR DAN SUSU_Telur lainnya (telur puyuh, telur asin mentah /matang, telur"
   },
@@ -651,8 +624,8 @@
     "index": 65,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Susu kental manis ",
-    "satuan_subsatuan": "SACHET",
-    "faktor_pengali": 0.09,
+    "satuan_subsatuan": "SACHET (40 GR)",
+    "faktor_pengali": 0.11,
     "satuan_standar": "Kaleng",
     "id_komoditas": "TELUR DAN SUSU_Susu kental manis "
   },
@@ -661,16 +634,25 @@
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Susu bubuk",
     "satuan_subsatuan": "KOTAK KECIL",
-    "faktor_pengali": 0.2,
+    "faktor_pengali": 0.25,
     "satuan_standar": "Kg",
     "id_komoditas": "TELUR DAN SUSU_Susu bubuk"
   },
-  {
+    {
     "index": 67,
     "kategori": "TELUR DAN SUSU",
     "nama_komoditas": "Susu bubuk",
     "satuan_subsatuan": "KOTAK BESAR",
     "faktor_pengali": 0.8,
+    "satuan_standar": "Kg",
+    "id_komoditas": "TELUR DAN SUSU_Susu bubuk"
+  },
+   {
+    "index": 66,
+    "kategori": "TELUR DAN SUSU",
+    "nama_komoditas": "Susu bubuk",
+    "satuan_subsatuan": "SACHET",
+    "faktor_pengali": 0.03,
     "satuan_standar": "Kg",
     "id_komoditas": "TELUR DAN SUSU_Susu bubuk"
   },
@@ -724,7 +706,7 @@
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Bayam",
     "satuan_subsatuan": "IKAT",
-    "faktor_pengali": 0.2,
+    "faktor_pengali": 0.20,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Bayam"
   },
@@ -768,28 +750,10 @@
     "index": 78,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Buncis",
-    "satuan_subsatuan": "IKAT",
-    "faktor_pengali": 0.25,
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.3,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Buncis"
-  },
-  {
-    "index": 79,
-    "kategori": "SAYUR-SAYURAN",
-    "nama_komoditas": "Buncis",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
-    "satuan_standar": "Kg",
-    "id_komoditas": "SAYUR-SAYURAN_Buncis"
-  },
-  {
-    "index": 80,
-    "kategori": "SAYUR-SAYURAN",
-    "nama_komoditas": "Kacang panjang",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
-    "satuan_standar": "Kg",
-    "id_komoditas": "SAYUR-SAYURAN_Kacang panjang"
   },
   {
     "index": 81,
@@ -804,8 +768,17 @@
     "index": 82,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Tomat sayur, tomat ceri",
-    "satuan_subsatuan": "MATO",
+    "satuan_subsatuan": "BUAH",
     "faktor_pengali": 0.1,
+    "satuan_standar": "Kg",
+    "id_komoditas": "SAYUR-SAYURAN_Tomat sayur, tomat ceri"
+  },
+  {
+    "index": 82,
+    "kategori": "SAYUR-SAYURAN",
+    "nama_komoditas": "Tomat sayur, tomat ceri",
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.3,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Tomat sayur, tomat ceri"
   },
@@ -813,8 +786,17 @@
     "index": 83,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Wortel",
-    "satuan_subsatuan": "MATO",
+    "satuan_subsatuan": "BUAH",
     "faktor_pengali": 0.1,
+    "satuan_standar": "Kg",
+    "id_komoditas": "SAYUR-SAYURAN_Wortel"
+  },
+   {
+    "index": 83,
+    "kategori": "SAYUR-SAYURAN",
+    "nama_komoditas": "Wortel",
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.4,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Wortel"
   },
@@ -822,8 +804,8 @@
     "index": 84,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Mentimun",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "BUNGKUS (3 BIJI)",
+    "faktor_pengali": 1.2,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Mentimun"
   },
@@ -832,7 +814,7 @@
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Daun ketela pohon/daun singkong",
     "satuan_subsatuan": "IKAT",
-    "faktor_pengali": 0.5,
+    "faktor_pengali": 0.3,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Daun ketela pohon/daun singkong"
   },
@@ -840,8 +822,8 @@
     "index": 86,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Terong",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "BUAH",
+    "faktor_pengali": 0.33,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Terong"
   },
@@ -849,8 +831,8 @@
     "index": 87,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Tauge",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.2,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Tauge"
   },
@@ -858,8 +840,8 @@
     "index": 88,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Labu, labu siam, labu parang",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "BUAH",
+    "faktor_pengali": 0.2,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Labu, labu siam, labu parang"
   },
@@ -867,8 +849,8 @@
     "index": 89,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Nangka muda",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.5,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Nangka muda"
   },
@@ -876,17 +858,8 @@
     "index": 90,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Pepaya muda",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
-    "satuan_standar": "Kg",
-    "id_komoditas": "SAYUR-SAYURAN_Pepaya muda"
-  },
-  {
-    "index": 91,
-    "kategori": "SAYUR-SAYURAN",
-    "nama_komoditas": "Pepaya muda",
-    "satuan_subsatuan": "BUNGKUS",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "BUAH",
+    "faktor_pengali": 1.0,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Pepaya muda"
   },
@@ -894,17 +867,17 @@
     "index": 92,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Jengkol",
-    "satuan_subsatuan": "BIJI",
-    "faktor_pengali": 1.0,
-    "satuan_standar": "KULIT",
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.4,
+    "satuan_standar": "KG",
     "id_komoditas": "SAYUR-SAYURAN_Jengkol"
   },
   {
     "index": 93,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Bawang merah",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "KG",
+    "faktor_pengali": 10,
     "satuan_standar": "Ons",
     "id_komoditas": "SAYUR-SAYURAN_Bawang merah"
   },
@@ -912,8 +885,8 @@
     "index": 94,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Bawang putih",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "KG",
+    "faktor_pengali": 10,
     "satuan_standar": "Ons",
     "id_komoditas": "SAYUR-SAYURAN_Bawang putih"
   },
@@ -921,8 +894,8 @@
     "index": 95,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Cabai merah",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.25,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Cabai merah"
   },
@@ -930,8 +903,8 @@
     "index": 96,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Cabai hijau",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.25,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Cabai hijau"
   },
@@ -939,8 +912,8 @@
     "index": 97,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Cabai rawit",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.25,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Cabai rawit"
   },
@@ -948,8 +921,8 @@
     "index": 98,
     "kategori": "SAYUR-SAYURAN",
     "nama_komoditas": "Sayur-sayuran lainnya (sebutkan): ",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "IKAT",
+    "faktor_pengali": 0.33,
     "satuan_standar": "Kg",
     "id_komoditas": "SAYUR-SAYURAN_Sayur-sayuran lainnya (sebutkan): "
   },
@@ -957,8 +930,8 @@
     "index": 99,
     "kategori": "KACANG-KACANGAN",
     "nama_komoditas": "Kacang tanah tanpa kulit",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.25,
     "satuan_standar": "Kg",
     "id_komoditas": "KACANG-KACANGAN_Kacang tanah tanpa kulit"
   },
@@ -966,8 +939,8 @@
     "index": 100,
     "kategori": "KACANG-KACANGAN",
     "nama_komoditas": "Kacang kedelai",
-    "satuan_subsatuan": "MATO",
-    "faktor_pengali": 0.1,
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.25,
     "satuan_standar": "Kg",
     "id_komoditas": "KACANG-KACANGAN_Kacang kedelai"
   },
@@ -986,6 +959,15 @@
     "nama_komoditas": "Tahu",
     "satuan_subsatuan": "BUAH BESAR",
     "faktor_pengali": 0.1,
+    "satuan_standar": "Kg",
+    "id_komoditas": "KACANG-KACANGAN_Tahu"
+  },
+  {
+    "index": 102,
+    "kategori": "KACANG-KACANGAN",
+    "nama_komoditas": "Tahu",
+    "satuan_subsatuan": "BUNGKUS",
+    "faktor_pengali": 0.4,
     "satuan_standar": "Kg",
     "id_komoditas": "KACANG-KACANGAN_Tahu"
   },
@@ -1015,6 +997,15 @@
     "faktor_pengali": 0.15,
     "satuan_standar": "Kg",
     "id_komoditas": "KACANG-KACANGAN_Tempe"
+  },
+   {
+    "index": 105,
+    "kategori": "KACANG-KACANGAN",
+    "nama_komoditas": "Oncom",
+    "satuan_subsatuan": "BIJI (SATUAN)",
+    "faktor_pengali": 2.5,
+    "satuan_standar": "Ons",
+    "id_komoditas": "KACANG-KACANGAN_Oncom"
   },
   {
     "index": 106,
