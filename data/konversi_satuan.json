@@ -1,5 +1,14 @@
 [
   {
+    "index": 180,
+    "kategori": "PADI-PADIAN",
+    "nama_komoditas": "Beras (beras lokal, kualitas unggul, impor)",
+    "satuan_subsatuan": "LITER",
+    "faktor_pengali": 0.89,
+    "satuan_standar": "Kg",
+    "id_komoditas": "PADI-PADIAN_Beras (beras lokal, kualitas unggul, impor)"
+  },
+  {
     "index": 0,
     "kategori": "PADI-PADIAN",
     "nama_komoditas": "Beras (beras lokal, kualitas unggul, impor)",
