@@ -55,16 +55,12 @@ const Layout = ({ children }) => {
       {children}
       <footer className="h-24 p-4 bg-gray-100 font-medium text-center m-auto text-xs md:text-sm text-gray-600 absolute bottom-0 inset-x-0 pb-36">
         Made by{" "}
-        <a href="https://github.com/fikrianggara" className="text-blue-500">
-          Fikri S.A
+        <a href="https://bogorkab.bps.go.id" className="text-blue-500">
+          Siti Maulina Meutuah
         </a>
         , in collaboration with{" "}
-        <a href="https://tanjabtimkab.bps.go.id/" className="text-blue-500">
-          BPS Tanjung Jabung Timur
-        </a>
-        , and{" "}
-        <a href="https://tanjabarkab.bps.go.id/" className="text-blue-500">
-          BPS Tanjung Jabung Barat
+        <a href="https://bogorkab.bps.go.id/" className="text-blue-500">
+          BPS Kabupaten Bogor
         </a>
       </footer>
     </main>
