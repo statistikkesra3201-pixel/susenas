@@ -435,8 +435,8 @@ export default function Home() {
       </div> */
   }
 
-  {
-    /* <footer className="h-24 p-4 bg-gray-100 font-medium text-center m-auto text-sm md:text-base text-gray-600 absolute bottom-0 inset-x-0">
+  { 
+    <footer className="h-24 p-4 bg-gray-100 font-medium text-center m-auto text-sm md:text-base text-gray-600 absolute bottom-0 inset-x-0">
         Made by{" "}
         <a href="https://bogorkab.bps.go.id" className="text-blue-500">
           Siti Maulina Meutuah.
@@ -445,7 +445,7 @@ export default function Home() {
         <a href="https://bogorkab.bps.go.id/" className="text-blue-500">
           BPS Kabupaten Bogor
         </a>
-      </footer> */
+      </footer> 
   }
   {
     /* </main> */
