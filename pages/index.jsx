@@ -129,7 +129,13 @@ export const ListSelectedItem = ({
   <div className="flex-1">{item.nama}</div>
   <span> ({formatter.format(item.biaya)})</span>
   <span>=</span>
-  <span>{formatter.format(item.biaya * item.amount)}</span>
+  <span>
+  {formatter.format(
+    item.kategori.toLowerCase().includes("listrik")
+      ? Math.floor(item.amount / item.biaya)
+      : item.biaya * item.amount
+  )}
+</span>
 </div>
 
             </div>
@@ -212,8 +218,11 @@ export default function Home() {
   }, []);
 
   const getTotal = (total, item) => {
-    return total + item.biaya * item.amount;
-  };
+  if (item.kategori.toLowerCase().includes("listrik")) {
+    return total + Math.floor(item.amount / item.biaya);
+  }
+  return total + item.biaya * item.amount;
+};
 
   const pengeluaranClickHandler = (id) => {
     let updatedItem;
