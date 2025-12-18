@@ -115,16 +115,23 @@ export const ListSelectedItem = ({
                 <IconPencil size={20} />
               </div>
 
-              <div className="flex space-x-2 md:space-x-4 items-center overflow-x-auto text-xs md:text-regular p-2">
-                <span>{item.amount}</span>
-                <span>
-                  <IconX size={16} />
-                </span>
-                <div className="flex-1">{item.nama}</div>
-                <span> ({formatter.format(item.biaya)})</span>
-                <span>=</span>
-                <span>{formatter.format(item.biaya * item.amount)}</span>
-              </div>
+             <div className="flex space-x-2 md:space-x-4 items-center overflow-x-auto text-xs md:text-regular p-2">
+            <span>{item.amount}</span>
+
+            <span>
+            {item.kategori.toLowerCase().includes("listrik") ? (
+            ":"
+            ) : (
+            <IconX size={16} />
+            )}
+            </span>
+
+  <div className="flex-1">{item.nama}</div>
+  <span> ({formatter.format(item.biaya)})</span>
+  <span>=</span>
+  <span>{formatter.format(item.biaya * item.amount)}</span>
+</div>
+
             </div>
           </li>
         ))}
