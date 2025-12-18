@@ -115,30 +115,25 @@ export const ListSelectedItem = ({
                 <IconPencil size={20} />
               </div>
 
-             <div className="flex space-x-2 md:space-x-4 items-center overflow-x-auto text-xs md:text-regular p-2">
-            <span>{item.amount}</span>
+              <div className="flex space-x-2 md:space-x-4 items-center overflow-x-auto text-xs md:text-regular p-2">
+                <span>{item.amount}</span>
 
-            <span>
-            {item.kategori.toLowerCase().includes("listrik") ? (
-            ":"
-            ) : (
-            <IconX size={16} />
-            )}
-            </span>
+                <span>
+                  {item.kategori.toLowerCase().includes("listrik") ? ":" : <IconX size={16} />}
+                </span>
 
-  <div className="flex-1">{item.nama}</div>
-  <span> ({formatter.format(item.biaya)})</span>
-  <span>=</span>
-<span>
-  {item.kategori.toLowerCase().includes("listrik")
-    ? (item.amount / item.biaya).toLocaleString("id-ID", {
-        minimumFractionDigits: 2,
-        maximumFractionDigits: 2,
-      })
-    : formatter.format(item.biaya * item.amount)}
-</span>
-</div>
-
+                <div className="flex-1">{item.nama}</div>
+                <span>({formatter.format(item.biaya)})</span>
+                <span>=</span>
+                <span>
+                  {item.kategori.toLowerCase().includes("listrik")
+                    ? `${(item.amount / item.biaya).toLocaleString("id-ID", {
+                        minimumFractionDigits: 2,
+                        maximumFractionDigits: 2,
+                      })} kWh`
+                    : formatter.format(item.biaya * item.amount)}
+                </span>
+              </div>
             </div>
           </li>
         ))}
@@ -167,7 +162,6 @@ export const SearchForm = ({ callback }) => {
   );
 };
 
-// kita butuh, is_filtered, is_checked
 export default function Home() {
   const [totalRupiah, setTotalRupiah] = useState(0);
   const [totalListrik, setTotalListrik] = useState(0);
@@ -181,18 +175,11 @@ export default function Home() {
 
   useEffect(() => {
     let tempData;
-    // kalau mendukung localStorage dan ada data,
-    // ambil data itu, tambahin atribut is_checked, is_filtered, amount
-    if (
-      typeof Storage !== "undefined" &&
-      localStorage.getItem("data") !== null
-    ) {
+    if (typeof Storage !== "undefined" && localStorage.getItem("data") !== null) {
       const lsData = JSON.parse(localStorage.getItem("data"));
-      // hapus data sebelumnya
       if (lsData.filter((item) => item._id == 1).length > 0) {
         localStorage.removeItem("data");
       }
-
       if (lsData.length > 0) {
         tempData = lsData.map((item) => {
           return { ...item, is_checked: false, is_filtered: false, amount: 1 };
@@ -202,12 +189,9 @@ export default function Home() {
     fetch("/api/pengeluaran/all")
       .then((data) => data.json())
       .then((dataJson) => {
-        // remap data
-
         const dataFetch = dataJson.data.map((item) => {
           return { ...item, is_checked: false, is_filtered: false, amount: 1 };
         });
-        // kalau ada tempData, taruh di atas list
         if (tempData) {
           setData(() => [...tempData, ...dataFetch]);
           setFilteredData(() => [...tempData, ...dataFetch]);
@@ -220,20 +204,20 @@ export default function Home() {
   }, []);
 
   const hitungTotal = (items) => {
-  let rupiah = 0;
-  let listrik = 0;
+    let rupiah = 0;
+    let listrik = 0;
 
-  items.forEach((item) => {
-    if (item.kategori.toLowerCase().includes("listrik")) {
-      listrik += item.amount / item.biaya;
-    } else {
-      rupiah += item.amount * item.biaya;
-    }
-  });
+    items.forEach((item) => {
+      if (item.kategori.toLowerCase().includes("listrik")) {
+        listrik += item.amount / item.biaya;
+      } else {
+        rupiah += item.amount * item.biaya;
+      }
+    });
 
-  setTotalRupiah(rupiah);
-  setTotalListrik(listrik);
-};
+    setTotalRupiah(rupiah);
+    setTotalListrik(listrik);
+  };
 
   const pengeluaranClickHandler = (id) => {
     let updatedItem;
@@ -245,10 +229,7 @@ export default function Home() {
       return item;
     });
     setData(updatedData);
-    // taruh data yang diklik ke paling bawah
-    const tempSelectedData = [
-      ...updatedData.filter((item) => item.is_checked && item._id != id),
-    ];
+    const tempSelectedData = [...updatedData.filter((item) => item.is_checked && item._id != id)];
     if (updatedItem.is_checked) {
       tempSelectedData.push(updatedItem);
     }
@@ -276,7 +257,6 @@ export default function Home() {
     setSelectedData(tempSelectedData);
     setData(tempData);
     hitungTotal(tempSelectedData);
-    // setFilteredData(tempData);
   };
 
   const addDataHandler = (kategori, nama, biaya) => {
@@ -306,7 +286,8 @@ export default function Home() {
     setData(dataFetch);
     setFilteredData(dataFetch);
     setSelectedData([]);
-    setTotal(0);
+    setTotalRupiah(0);
+    setTotalListrik(0);
   };
 
   const onModalClickHandler = () => {
@@ -334,14 +315,14 @@ export default function Home() {
       </>
     );
   }
+
   const searchChangeHandler = (input) => {
     const filterInput = input.toLowerCase();
     if (filterInput.length < 1) {
       setFilteredData(data);
     } else {
       const tempData = data.filter((item) => {
-        const temp =
-          "" + item.kategori.toLowerCase() + "-" + item.nama.toLowerCase();
+        const temp = "" + item.kategori.toLowerCase() + "-" + item.nama.toLowerCase();
         return temp.includes(filterInput);
       });
       setFilteredData(tempData);
@@ -353,16 +334,14 @@ export default function Home() {
       <HomeCard title="Kalkulator Pengeluaran">
         <div className="space-y-2">
           {isOpen && (
-            <div className="">
-              <FormModal callback={onModalClickHandler}>
-                <ModalCreateCard
-                  item={data[0]}
-                  callback={onModalClickHandler}
-                  addDataCallback={addDataHandler}
-                  listKategori={[...new Set(data.map((item) => item.kategori))]}
-                />
-              </FormModal>
-            </div>
+            <FormModal callback={onModalClickHandler}>
+              <ModalCreateCard
+                item={data[0]}
+                callback={onModalClickHandler}
+                addDataCallback={addDataHandler}
+                listKategori={[...new Set(data.map((item) => item.kategori))]}
+              />
+            </FormModal>
           )}
           <SearchForm callback={searchChangeHandler} />
           {pengeluaranComp}
@@ -378,10 +357,7 @@ export default function Home() {
                   reset pilihan
                 </div>
               ) : (
-                <div
-                  className="border rounded-lg border-gray-200 px-4 py-2 text-xs sm:text-sm text-gray-400 cursor-not-allowed"
-                  // onClick={resetSelection}
-                >
+                <div className="border rounded-lg border-gray-200 px-4 py-2 text-xs sm:text-sm text-gray-400 cursor-not-allowed">
                   reset pilihan
                 </div>
               )}
@@ -396,74 +372,32 @@ export default function Home() {
           </div>
         </div>
       </HomeCard>
-      <HomeCard
-        title={
-          <div className="flex justify-between">
-            <span>Pengeluaran</span>
-            <div className="flex space-x-4 relative">
-              Total-
-              <div
-                className="flex space-x-2 items-center w-fit text-blue-500 hover:cursor-pointer hover:underline"
-                onClick={() => {
-                  navigator.clipboard.writeText(total);
-                  setShowTooltip(true);
-                  setTimeout(() => setShowTooltip(false), 2500);
-                }}
-              >
-                <span>{formatter.format(total)}</span>
 
-                <IconCopy size={20} />
-              </div>
-              <span
-                className="absolute -bottom-6 right-2 bg-gray-100 px-2 py-1 rounded text-xs duration-1000 text-black shadow-md z-20"
-                style={{
-                  display: showTooltip ? "block" : "none",
-                }}
-              >
-                Nilai disalin !
-              </span>
-            </div>
-          </div>
-        }
-      >
+      <HomeCard title="Total Pengeluaran">
         {selectedData.length > 0 ? (
-          <ListSelectedItem
-            data={selectedData}
-            updateDataCallback={updateDataHandler}
-            deleteDataCallback={pengeluaranClickHandler}
-          />
+          <>
+            <ListSelectedItem
+              data={selectedData}
+              updateDataCallback={updateDataHandler}
+              deleteDataCallback={pengeluaranClickHandler}
+            />
+            <div className="flex justify-between mt-4 font-medium text-gray-600">
+              <div className="flex space-x-2 items-center">
+                <span>Total Rupiah:</span>
+                <span>{formatter.format(totalRupiah)}</span>
+              </div>
+              <div className="flex space-x-2 items-center">
+                <span>Total Listrik:</span>
+                <span>{totalListrik.toLocaleString("id-ID", { minimumFractionDigits: 2, maximumFractionDigits: 2 })} kWh</span>
+              </div>
+            </div>
+          </>
         ) : (
-          <div className="m-auto text-center text-gray-400">
-            Belum ada Pengeluaran
-          </div>
+          <div className="m-auto text-center text-gray-400">Belum ada Pengeluaran</div>
         )}
       </HomeCard>
-    </>
-  );
-  // // <main className="bg-gray-50 min-h-screen space-y-4 relative pb-48">
-  //   <nav className="p-4 bg-gray-100 shadow">
-  //     <div>
-  //       <h1 className="text-gray-700 text-xl text-center font-medium">
-  //         {TITLE}
-  //       </h1>
-  //     </div>
-  //   </nav>
-  {
-    /* <div className="w-11/12 md:w-8/12 lg:w-6/12 bg-white m-auto rounded-xl h-fit p-4 space-y-2 shadow">
-        <div className="flex justify-between ">
-          <h1 className="text-lg font-medium text-gray-600">Provinsi Jambi</h1>
-          <Link
-            className="py-1 px-4 rounded-md bg-blue-500 duration-200 ease-in-out hover:bg-blue-400 hover:cursor-pointer shadow-blue-100"
-            href="/admin/login"
-          >
-            <IconLogin size={24} color="white" />
-          </Link>
-        </div>
-      </div> */
-  }
 
-  { 
-    <footer className="h-24 p-4 bg-gray-100 font-medium text-center m-auto text-sm md:text-base text-gray-600 absolute bottom-0 inset-x-0">
+      <footer className="h-24 p-4 bg-gray-100 font-medium text-center m-auto text-sm md:text-base text-gray-600 absolute bottom-0 inset-x-0">
         Made by{" "}
         <a href="https://bogorkab.bps.go.id" className="text-blue-500">
           Siti Maulina Meutuah.
@@ -472,10 +406,7 @@ export default function Home() {
         <a href="https://bogorkab.bps.go.id/" className="text-blue-500">
           BPS Kabupaten Bogor
         </a>
-      </footer> 
-  }
-  {
-    /* </main> */
-  }
+      </footer>
+    </>
+  );
 }
-
