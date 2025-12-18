@@ -129,12 +129,13 @@ export const ListSelectedItem = ({
   <div className="flex-1">{item.nama}</div>
   <span> ({formatter.format(item.biaya)})</span>
   <span>=</span>
-  <span>
-  {formatter.format(
-    item.kategori.toLowerCase().includes("listrik")
-      ? Math.floor(item.amount / item.biaya)
-      : item.biaya * item.amount
-  )}
+<span>
+  {item.kategori.toLowerCase().includes("listrik")
+    ? (item.amount / item.biaya).toLocaleString("id-ID", {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
+      })
+    : formatter.format(item.biaya * item.amount)}
 </span>
 </div>
 
