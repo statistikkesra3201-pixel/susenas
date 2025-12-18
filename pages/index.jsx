@@ -169,7 +169,8 @@ export const SearchForm = ({ callback }) => {
 
 // kita butuh, is_filtered, is_checked
 export default function Home() {
-  const [total, setTotal] = useState(0);
+  const [totalRupiah, setTotalRupiah] = useState(0);
+  const [totalListrik, setTotalListrik] = useState(0);
   const [selectedData, setSelectedData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [data, setData] = useState([]);
@@ -218,11 +219,20 @@ export default function Home() {
       .catch((e) => console.log(e));
   }, []);
 
-  const getTotal = (total, item) => {
-  if (item.kategori.toLowerCase().includes("listrik")) {
-    return total + Math.floor(item.amount / item.biaya);
-  }
-  return total + item.biaya * item.amount;
+  const hitungTotal = (items) => {
+  let rupiah = 0;
+  let listrik = 0;
+
+  items.forEach((item) => {
+    if (item.kategori.toLowerCase().includes("listrik")) {
+      listrik += item.amount / item.biaya;
+    } else {
+      rupiah += item.amount * item.biaya;
+    }
+  });
+
+  setTotalRupiah(rupiah);
+  setTotalListrik(listrik);
 };
 
   const pengeluaranClickHandler = (id) => {
@@ -243,7 +253,7 @@ export default function Home() {
       tempSelectedData.push(updatedItem);
     }
     setSelectedData(tempSelectedData);
-    setTotal(tempSelectedData.reduce(getTotal, 0));
+    hitungTotal(tempSelectedData);
     setFilteredData((prev) =>
       prev.map((item) => {
         if (item._id == id) {
@@ -265,7 +275,7 @@ export default function Home() {
     const tempSelectedData = tempData.filter((item) => item.is_checked);
     setSelectedData(tempSelectedData);
     setData(tempData);
-    setTotal(tempSelectedData.reduce(getTotal, 0));
+    hitungTotal(tempSelectedData);
     // setFilteredData(tempData);
   };
 
@@ -275,7 +285,7 @@ export default function Home() {
     const tempSelectedData = tempData.filter((item) => item.is_checked);
     setSelectedData(tempSelectedData);
     setData(tempData);
-    setTotal(tempSelectedData.reduce(getTotal, 0));
+    hitungTotal(tempSelectedData);
     setFilteredData(tempData);
   };
 
@@ -285,7 +295,7 @@ export default function Home() {
     const tempSelectedData = tempData.filter((item) => item.is_checked);
     setSelectedData(tempSelectedData);
     setData(tempData);
-    setTotal(tempSelectedData.reduce(getTotal, 0));
+    hitungTotal(tempSelectedData);
     setFilteredData(tempData);
   };
 
